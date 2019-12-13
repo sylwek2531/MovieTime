@@ -12,3 +12,17 @@ C:\Users\user1\source\repos\MovieTime\MovieTime\obj\Debug\MovieTime.Properties.R
 C:\Users\user1\source\repos\MovieTime\MovieTime\obj\Debug\MovieTime.csproj.GenerateResource.cache
 C:\Users\user1\source\repos\MovieTime\MovieTime\obj\Debug\MovieTime.exe
 C:\Users\user1\source\repos\MovieTime\MovieTime\obj\Debug\MovieTime.pdb
+C:\Users\patry\Documents\Github\MovieTime\MovieTime\bin\Debug\MovieTime.exe.config
+C:\Users\patry\Documents\Github\MovieTime\MovieTime\bin\Debug\MovieTime.exe
+C:\Users\patry\Documents\Github\MovieTime\MovieTime\bin\Debug\MovieTime.pdb
+C:\Users\patry\Documents\Github\MovieTime\MovieTime\obj\Debug\MovieTime.csprojAssemblyReference.cache
+C:\Users\patry\Documents\Github\MovieTime\MovieTime\obj\Debug\MainWindow.g.cs
+C:\Users\patry\Documents\Github\MovieTime\MovieTime\obj\Debug\App.g.cs
+C:\Users\patry\Documents\Github\MovieTime\MovieTime\obj\Debug\MovieTime_MarkupCompile.cache
+C:\Users\patry\Documents\Github\MovieTime\MovieTime\obj\Debug\MovieTime_MarkupCompile.lref
+C:\Users\patry\Documents\Github\MovieTime\MovieTime\obj\Debug\MainWindow.baml
+C:\Users\patry\Documents\Github\MovieTime\MovieTime\obj\Debug\MovieTime.g.resources
+C:\Users\patry\Documents\Github\MovieTime\MovieTime\obj\Debug\MovieTime.Properties.Resources.resources
+C:\Users\patry\Documents\Github\MovieTime\MovieTime\obj\Debug\MovieTime.csproj.GenerateResource.cache
+C:\Users\patry\Documents\Github\MovieTime\MovieTime\obj\Debug\MovieTime.exe
+C:\Users\patry\Documents\Github\MovieTime\MovieTime\obj\Debug\MovieTime.pdb
