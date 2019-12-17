@@ -122,19 +122,19 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\small-icon-png-22.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="Images\film-solid.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\grin-squint-tears-regular.png" />
+    <Resource Include="Images\grin.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\newspaper-regular.png" />
+    <Resource Include="Images\newspaper.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\chart-bar-regular.png" />
+    <Resource Include="Images\chart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\loupe.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -23,14 +23,58 @@ namespace MovieTime
 
     public partial class MainWindow : Window
     {
-       
+
         public MainWindow()
         {
             InitializeComponent();
+
+
+            List<ListItem> list = new List<ListItem>();
+
+            list.Add(new ListItem()
+            {
+
+                ID = 1,
+                Name = "Wyszukiwarka",
+                ImagePath = "Images/loupe.png"
+            });
+
+            list.Add(new ListItem()
+            {
+                ID = 2,
+                Name = "Top 500",
+                ImagePath = "Images/chart.png"
+            });
+
+            list.Add(new ListItem()
+            {
+                ID = 3,
+                Name = "News",
+                ImagePath = "Images/newspaper.png"
+            });
+
+            list.Add(new ListItem()
+            {
+                ID = 4,
+                Name = "Komedie",
+                ImagePath = "Images/grin.png"
+            });
+
+
+
+
+            listbox1.ItemsSource = list;
+        }
+
+        class ListItem
+        {
+            public int ID { get; set; }
+            public string Name { get; set; }
+            public string ImagePath { get; set; }
         }
 
 
-        //Wyszukiwanie na klikniecie lupy (Dodać lupe)
+        //Wyszukiwanie na klikniecie lupy
         private void Search_Click(object sender, RoutedEventArgs e)
         {
             MainLabel.Content = txtSearch.Text;
@@ -47,25 +91,7 @@ namespace MovieTime
             
         }
 
-        private void Wyszukiwarka_Click(object sender, RoutedEventArgs e)
-        {
-            MainLabel.Content = "Wyszukiwarka";
-        }
-
-        private void Top500_Click(object sender, RoutedEventArgs e)
-        {
-            MainLabel.Content = "Top 500";
-        }
-
-        private void News_Click(object sender, RoutedEventArgs e)
-        {
-            MainLabel.Content = "News";
-        }
-
-        private void Komedie_Click(object sender, RoutedEventArgs e)
-        {
-            MainLabel.Content = "Komedie";
-        }
+      
 
 
     }
