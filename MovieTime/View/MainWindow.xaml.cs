@@ -30,28 +30,28 @@ namespace MovieTime
 
                 ID = 1,
                 Name = "Wyszukiwarka",
-                ImagePath = "Images/loupe.png"
+                ImagePath = "../Images/loupe.png"
             });
 
             list.Add(new ListItem()
             {
                 ID = 2,
                 Name = "Top 500",
-                ImagePath = "Images/chart.png"
+                ImagePath = "../Images/chart.png"
             });
 
             list.Add(new ListItem()
             {
                 ID = 3,
                 Name = "News",
-                ImagePath = "Images/newspaper.png"
+                ImagePath = "../Images/newspaper.png"
             });
 
             list.Add(new ListItem()
             {
                 ID = 4,
                 Name = "Komedie",
-                ImagePath = "Images/grin.png"
+                ImagePath = "../Images/grin.png"
             });
 
 

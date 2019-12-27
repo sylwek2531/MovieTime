@@ -85,7 +85,7 @@
             <StackPanel Grid.Column="0" Grid.RowSpan="3" Margin="0,0,0,0.4" >
                 <StackPanel Height="190" >
                 <StackPanel HorizontalAlignment="Center" Height="81" Margin="0,55,0,55" >
-                        <Image Source="Images/film-solid.png" Width="86" Height="60"/>
+                        <Image Source="/MovieTime;component/Images/film-solid.png" Width="86" Height="60"/>
                         <Label FontSize="14" Foreground="#FFC200" BorderBrush="#141414" Content="MovieTime" Background="#141414" Height="30" HorizontalContentAlignment="Center"/>
                     </StackPanel>
                 </StackPanel>
@@ -188,7 +188,7 @@
 
                     
                         <Button DockPanel.Dock="Right" Height="Auto" Width="49" HorizontalAlignment="Right" Click="Search_Click">
-                            <Image x:Name="iIcon3" Width="30px" Height="30px" Margin="0, 1, 3, 1" Source="Images/loupe.png" VerticalAlignment="Center">
+                            <Image x:Name="iIcon3" Width="30px" Height="30px" Margin="0, 1, 3, 1" Source="../Images/loupe.png" VerticalAlignment="Center">
 
                                 
                             </Image>
