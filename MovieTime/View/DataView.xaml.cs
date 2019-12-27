@@ -16,9 +16,7 @@ using System.Windows.Shapes;
 
 namespace MovieTime.View
 {
-    /// <summary>
-    /// Logika interakcji dla klasy DataView.xaml
-    /// </summary>
+
     public partial class DataView : UserControl
     {
         public DataView(searchMoviesAsync sma)
@@ -26,5 +24,8 @@ namespace MovieTime.View
             InitializeComponent();
             DataContext = sma;
         }
+
+
     }
+
 }
