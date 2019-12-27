@@ -127,7 +127,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-<<<<<<< HEAD
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
       <Visible>False</Visible>
@@ -155,8 +154,5 @@
   <ItemGroup>
     <Resource Include="Images\loupe.png" />
   </ItemGroup>
-=======
-  <ItemGroup />
->>>>>>> 617b640aca989482c6f48d22e74234c618d8dc0e
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

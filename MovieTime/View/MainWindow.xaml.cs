@@ -2,6 +2,7 @@
 using MovieTime.Controller;
 using MovieTime.Model;
 using MovieTime.View;
+using System.Collections.Generic;
 using System.Diagnostics;
 using System.Windows;
 
@@ -22,7 +23,7 @@ namespace MovieTime
             InitializeComponent();
             this.DataContext = viewModel;
 
-              List<ListItem> list = new List<ListItem>();
+            List<ListItem> list = new List<ListItem>();
 
             list.Add(new ListItem()
             {
