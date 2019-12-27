@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MovieTime.Model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,12 +14,17 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
+<<<<<<< HEAD:MovieTime/MainWindow.xaml.cs
 
 namespace MovieTime
+=======
+namespace MovieTime.View
+>>>>>>> 617b640aca989482c6f48d22e74234c618d8dc0e:MovieTime/View/DataView.xaml.cs
 {
     /// <summary>
-    /// Logika interakcji dla klasy MainWindow.xaml
+    /// Logika interakcji dla klasy DataView.xaml
     /// </summary>
+<<<<<<< HEAD:MovieTime/MainWindow.xaml.cs
     /// 
 
     public partial class MainWindow : Window
@@ -64,6 +70,14 @@ namespace MovieTime
 
 
             listbox1.ItemsSource = list;
+=======
+    public partial class DataView : UserControl
+    {
+        public DataView(searchMoviesAsync sma)
+        {
+            InitializeComponent();
+            DataContext = sma;
+>>>>>>> 617b640aca989482c6f48d22e74234c618d8dc0e:MovieTime/View/DataView.xaml.cs
         }
 
         class ListItem

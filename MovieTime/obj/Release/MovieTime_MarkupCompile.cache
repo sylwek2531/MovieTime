@@ -4,13 +4,22 @@
 winexe
 C#
 .cs
+<<<<<<< HEAD
 C:\Users\patry\Documents\Github\MovieTime\MovieTime\obj\Release\
+=======
+C:\Users\user1\Source\Repos\MovieTime\MovieTime\obj\Release\
+>>>>>>> 617b640aca989482c6f48d22e74234c618d8dc0e
 MovieTime
 none
 false
 TRACE
+<<<<<<< HEAD
 C:\Users\patry\Documents\Github\MovieTime\MovieTime\App.xaml
 2-1196223661
+=======
+C:\Users\user1\Source\Repos\MovieTime\MovieTime\App.xaml
+11151548125
+>>>>>>> 617b640aca989482c6f48d22e74234c618d8dc0e
 
 6-2041384132
 13-1505183044
