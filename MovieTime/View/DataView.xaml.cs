@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MovieTime.Model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,16 +14,17 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace MovieTime
+namespace MovieTime.View
 {
     /// <summary>
-    /// Logika interakcji dla klasy MainWindow.xaml
+    /// Logika interakcji dla klasy DataView.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class DataView : UserControl
     {
-        public MainWindow()
+        public DataView(searchMoviesAsync sma)
         {
             InitializeComponent();
+            DataContext = sma;
         }
     }
 }
