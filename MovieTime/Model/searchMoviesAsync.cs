@@ -4,6 +4,11 @@ using System.Runtime.Serialization;
 
 namespace MovieTime.Model
 {
+
+ /*   poster 
+        backdrop*/
+                                     /*   <Image Source = "{Binding Backdrop}" Stretch="UniformToFill"/>*/
+
     public class searchMoviesAsync : PagedResult<Movie>
     {
 
@@ -18,6 +23,7 @@ namespace MovieTime.Model
     public class Resources : PagedResult<Resource>
     {
     }
+  
     [DataContract]
     public class Collection
     {

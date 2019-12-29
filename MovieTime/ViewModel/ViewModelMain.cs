@@ -25,5 +25,6 @@ namespace MovieTime.ViewModel
             set { movieName = value; NotifyPropertyChanged("MovieName"); }
         }
 
+
     }
 }

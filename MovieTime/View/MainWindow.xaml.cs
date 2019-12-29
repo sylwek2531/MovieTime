@@ -54,9 +54,6 @@ namespace MovieTime
                 ImagePath = "../Images/grin.png"
             });
 
-
-
-
             listbox1.ItemsSource = list;
         }
 
@@ -73,10 +70,10 @@ namespace MovieTime
             if (string.IsNullOrEmpty(viewModel.MovieName))
                 return;
 
-
             Grid.Children.Add(new DataView(controller.getSearchMovie(viewModel.MovieName)));
          
         }
+       
     }
 
 }
