@@ -198,9 +198,8 @@
             </Border>
         </StackPanel>
 
-        <StackPanel Grid.Column="3" Grid.Row="1">
-            <Grid Name="Grid"></Grid>
-            <Label Name="MainLabel" FontSize="22" Foreground="#FFC200"></Label>
+        <StackPanel Grid.Column="3" Grid.Row="2">
+            <Grid Name="Grid"></Grid> 
         </StackPanel>
 
         
