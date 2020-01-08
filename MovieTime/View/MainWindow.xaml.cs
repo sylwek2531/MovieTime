@@ -73,7 +73,18 @@ namespace MovieTime
             Grid.Children.Add(new DataView(controller.getSearchMovie(viewModel.MovieName)));
          
         }
-       
+
+
+        /*
+        void ListBox_TargetUpdated(object sender, DataTransferEventArgs e)
+        {
+            ListBox lb = sender as ListBox;
+            if (lb != null && lb.HasItems) lb.SelectedIndex = 0;
+        }
+        */
+
+
+
     }
 
 }

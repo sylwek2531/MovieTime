@@ -73,12 +73,14 @@
             <ColumnDefinition Width="300"/>
             <ColumnDefinition Width="2" />
             <ColumnDefinition Width="*"/>
+            
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition Height="190"/>
             <RowDefinition Height="60" />
             
             <RowDefinition Height="*"/>
+            <RowDefinition Height="10"/>
         </Grid.RowDefinitions>
 
         
@@ -92,10 +94,10 @@
             <ListBox Name="listbox1" Grid.Row="0" HorizontalContentAlignment="Left" Width="300" BorderThickness="0" Background="#141414">
 
 
-                <ListBox.ItemTemplate>
+                <ListBox.ItemTemplate >
                     <DataTemplate>
                         <StackPanel Orientation="Horizontal" Height="60" Margin="0">
-                            <Image Source='{Binding ImagePath}' Width='30' Height="30" Margin="20,0,28,0"></Image>
+                            <Image Source='{Binding ImagePath }' Width='30' Height="30" Margin="20,0,28,0"></Image>
                             <TextBlock Text='{Binding Name}' FontSize="20" Foreground="White" VerticalAlignment="Center"></TextBlock>
                         </StackPanel>
                     </DataTemplate>
@@ -176,11 +178,11 @@
 
         </StackPanel>
 
-        <StackPanel Grid.Column="1" Grid.RowSpan="3" Background="#FFC200" Width="2"/>
+        <StackPanel Grid.Column="1" Grid.RowSpan="4" Background="#FFC200" Width="2"/>
 
 
 
-        <StackPanel Grid.Column="3" Grid.Row="0" Margin="15" VerticalAlignment="Center" MaxWidth="500" Height="60">
+        <StackPanel Grid.Column="2" Grid.Row="0" Margin="15" VerticalAlignment="Center" MaxWidth="500" Height="60">
             <Border BorderThickness="2" BorderBrush="#FFFFFF" CornerRadius="5">
                 <DockPanel >
                     
@@ -198,11 +200,14 @@
             </Border>
         </StackPanel>
 
-        <StackPanel Grid.Column="3" Grid.Row="2">
-            <Grid Name="Grid"></Grid> 
-        </StackPanel>
 
-        
+
+
+        <ScrollViewer Grid.Column="2" Grid.Row="2" VerticalScrollBarVisibility="Hidden">
+            <StackPanel >
+                <Grid Name="Grid"></Grid>
+            </StackPanel>
+        </ScrollViewer>
     </Grid>
     
 </Window>
