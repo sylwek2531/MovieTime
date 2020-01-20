@@ -5,9 +5,6 @@ using System.Runtime.Serialization;
 namespace MovieTime.Model
 {
 
- /*   poster 
-        backdrop*/
-                                     /*   <Image Source = "{Binding Backdrop}" Stretch="UniformToFill"/>*/
 
     public class searchMoviesAsync : PagedResult<Movie>
     {
@@ -39,8 +36,6 @@ namespace MovieTime.Model
         [DataMember(Name = "backdrop_path")]
         public string Backdrop { get; internal set; }
 
-       /* [DataMember(Name = "parts")]
-        public IEnumerable<Movie> Parts { get; internal set; }*/
     }
 
     public class Collections : PagedResult<Collection>
@@ -77,20 +72,11 @@ namespace MovieTime.Model
         [DataMember(Name = "budget")]
         public int Budget { get; internal set; }
 
-    /*    [DataMember(Name = "genres")]
-        public IEnumerable<Genre> Genres { get; internal set; }*/
-
         [DataMember(Name = "homepage")]
         public string HomePage { get; internal set; }
 
         [DataMember(Name = "imdb_id")]
         public string Imdb { get; internal set; }
-
-       /* [DataMember(Name = "production_companies")]
-        public IEnumerable<Company> Companies { get; internal set; }*/
-
-       /* [DataMember(Name = "production_countries")]
-        public IEnumerable<Country> Countries { get; internal set; }*/
 
         [DataMember(Name = "release_date")]
         public DateTime? ReleaseDate { get; internal set; }
@@ -100,30 +86,6 @@ namespace MovieTime.Model
 
         [DataMember(Name = "runtime")]
         public int? Runtime { get; internal set; }
-
-       /* [DataMember(Name = "spoken_languages")]
-        public IEnumerable<Language> Languages { get; internal set; }
-
-        [DataMember(Name = "alternative_titles")]
-        public AlternativeTitles AlternativeTitles { get; internal set; }
-
-        [DataMember(Name = "credits")]
-        public MediaCredits Credits { get; internal set; }*/
-
-    /*    [DataMember(Name = "images")]
-        public Images Images { get; internal set; }
-
-        [DataMember(Name = "videos")]
-        public Videos Videos { get; internal set; }
-
-        [DataMember(Name = "keywords")]
-        public Keywords Keywords { get; internal set; }
-
-        [DataMember(Name = "releases")]
-        public Releases Releases { get; internal set; }
-
-        [DataMember(Name = "translations")]
-        public Translations Translations { get; internal set; }*/
 
         [DataMember(Name = "popularity")]
         public decimal Popularity { get; internal set; }
@@ -137,8 +99,6 @@ namespace MovieTime.Model
         [DataMember(Name = "status")]
         public string Status { get; internal set; }
 
-     /*   [DataMember(Name = "external_ids")]
-        public ExternalIds External { get; internal set; }*/
 
     }
 

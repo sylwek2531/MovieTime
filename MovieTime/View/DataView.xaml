@@ -10,7 +10,7 @@
         <local:ImagePath x:Key="ImagePath"/>
     </UserControl.Resources>
     <Grid Margin="5,5,5,0" Background="#141414" >
-        <DataGrid ItemsSource="{Binding Path=Results}"></DataGrid>
+        
 
                 <ItemsControl ItemsSource="{Binding Path=Results}" Background="#141414">
                     <ItemsControl.ItemsPanel>
@@ -40,8 +40,8 @@
                                 <StackPanel>
                                      <Label>
                                         <StackPanel >
-                                    <TextBlock Text="Title:" Foreground="#FFC200" FontSize="15"/>
-                                    <TextBlock VerticalAlignment="Bottom" Text="{Binding Title}" Foreground="White" TextWrapping="WrapWithOverflow"/>
+                                            <TextBlock Text="Title:" Foreground="#FFC200" FontSize="15"/>
+                                            <TextBlock VerticalAlignment="Bottom" Text="{Binding Title}" Foreground="White" TextWrapping="WrapWithOverflow"/>
                                         </StackPanel>
                                     </Label>
                                     
@@ -53,8 +53,8 @@
                                     </Grid>
 
                                     <StackPanel Margin="5,0,5,5">
-                                <TextBlock Text="Overview:" Foreground="#FFC200" FontSize="15"/>
-                                    <TextBlock VerticalAlignment="Bottom" Text="{Binding Overview}" Foreground="White" TextWrapping="WrapWithOverflow"/>
+                                        <TextBlock Text="Overview:" Foreground="#FFC200" FontSize="15"/>
+                                        <TextBlock VerticalAlignment="Bottom" Text="{Binding Overview}" Foreground="White" TextWrapping="WrapWithOverflow"/>
                                     </StackPanel>
 
                                 </StackPanel>   
