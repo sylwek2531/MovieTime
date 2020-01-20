@@ -66,23 +66,24 @@ namespace MovieTime
 
         private void Search_Click(object sender, RoutedEventArgs e)
         {
-            Debug.WriteLine("CLICK");
             if (string.IsNullOrEmpty(viewModel.MovieName))
                 return;
 
-            Grid.Children.Add(new DataView(controller.getSearchMovie(viewModel.MovieName)));
+         
+            searchMoviesAsync data = controller.getSearchMovie(viewModel.MovieName);
+
+            if(data.TotalCount > 0)
+            {
+                Grid.Children.Clear();
+                Grid.Children.Add(new DataView(data));
+            }
+            else
+            {
+                Grid.Children.Clear();
+                Grid.Children.Add(new LabelView());
+            }
          
         }
-
-
-        /*
-        void ListBox_TargetUpdated(object sender, DataTransferEventArgs e)
-        {
-            ListBox lb = sender as ListBox;
-            if (lb != null && lb.HasItems) lb.SelectedIndex = 0;
-        }
-        */
-
 
 
     }

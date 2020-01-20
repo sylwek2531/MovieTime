@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using MovieTime.API;
+﻿using MovieTime.API;
 using MovieTime.Model;
 
 namespace MovieTime.Controller
