@@ -149,19 +149,19 @@
     <Resource Include="Images\film-solid.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\grin.png" />
+    <Resource Include="Images\play.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\newspaper.png" />
+    <Resource Include="Images\popular.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\chart.png" />
+    <Resource Include="Images\star.png" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\loupe.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\grid.png" />
+    <Resource Include="Images\upcoming.png" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\none.png" />
