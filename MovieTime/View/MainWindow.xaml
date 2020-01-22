@@ -91,7 +91,8 @@
                     <Label FontSize="14" Foreground="#FFC200" BorderBrush="#141414" Content="MovieTime" Background="#141414" Height="30" HorizontalContentAlignment="Center"/>
                 </StackPanel>
             </StackPanel>
-            <ListBox Name="listbox1" Grid.Row="0" HorizontalContentAlignment="Left" Width="300" BorderThickness="0" Background="#141414">
+         
+            <ListBox Name="listbox1" Grid.Row="0" SelectionChanged="listbox1_SelectionChanged" HorizontalContentAlignment="Left" Width="300" BorderThickness="0" Background="#141414">
 
 
                 <ListBox.ItemTemplate >
@@ -186,7 +187,7 @@
             <Border BorderThickness="2" BorderBrush="#FFFFFF" CornerRadius="5">
                 <DockPanel >
 
-                    <TextBox Style="{StaticResource placeHolder}" Tag="Szukaj..." Text="{Binding MovieName}" FontSize="22" Foreground="#FFFFFF" HorizontalAlignment="Stretch" Background="Transparent" BorderThickness="0" Margin="12" />
+                    <TextBox Name="SearchBox" Style="{StaticResource placeHolder}" Tag="Szukaj..." Text="{Binding MovieName}" FontSize="22" Foreground="#FFFFFF" HorizontalAlignment="Stretch" Background="Transparent" BorderThickness="0" Margin="12" />
 
 
                     <Button DockPanel.Dock="Right" Height="Auto" Width="49" HorizontalAlignment="Right" Click="Search_Click">

@@ -40,8 +40,14 @@
                                 <StackPanel>
                                      <Label>
                                         <StackPanel >
-                                            <TextBlock Text="Title:" Foreground="#FFC200" FontSize="15"/>
-                                            <TextBlock VerticalAlignment="Bottom" Text="{Binding Title}" Foreground="White" TextWrapping="WrapWithOverflow"/>
+                                            <StackPanel>
+                                                <TextBlock Text="Date:" Foreground="#FFC200" FontSize="15"/>
+                                                <TextBlock VerticalAlignment="Bottom" Text="{Binding ReleaseDate, StringFormat=dd-MM-yyyy}" Foreground="White" TextWrapping="WrapWithOverflow"/>
+                                            </StackPanel>   
+                                            <StackPanel >
+                                                <TextBlock Text="Title:" Foreground="#FFC200" FontSize="15"/>
+                                                <TextBlock VerticalAlignment="Bottom" Text="{Binding Title}" Foreground="White" TextWrapping="WrapWithOverflow"/>
+                                            </StackPanel>
                                         </StackPanel>
                                     </Label>
                                     

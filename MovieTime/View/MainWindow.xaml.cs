@@ -2,10 +2,10 @@
 using MovieTime.Controller;
 using MovieTime.Model;
 using MovieTime.View;
+using System;
 using System.Collections.Generic;
-using System.Diagnostics;
 using System.Windows;
-
+using System.Windows.Controls;
 
 namespace MovieTime
 {
@@ -29,29 +29,29 @@ namespace MovieTime
             {
 
                 ID = 1,
-                Name = "Wyszukiwarka",
-                ImagePath = "../Images/loupe.png"
+                Name = "Playing Now",
+                ImagePath = "../Images/play.png"
             });
 
             list.Add(new ListItem()
             {
                 ID = 2,
-                Name = "Top 500",
-                ImagePath = "../Images/chart.png"
+                Name = "Top",
+                ImagePath = "../Images/star.png"
             });
 
             list.Add(new ListItem()
             {
                 ID = 3,
-                Name = "News",
-                ImagePath = "../Images/newspaper.png"
+                Name = "Popular",
+                ImagePath = "../Images/popular.png"
             });
 
             list.Add(new ListItem()
             {
                 ID = 4,
-                Name = "Komedie",
-                ImagePath = "../Images/grin.png"
+                Name = "Upcoming",
+                ImagePath = "../Images/upcoming.png"
             });
 
             listbox1.ItemsSource = list;
@@ -72,7 +72,44 @@ namespace MovieTime
          
             searchMoviesAsync data = controller.getSearchMovie(viewModel.MovieName);
 
-            if(data.TotalCount > 0)
+            display_data(data);
+            listbox1.UnselectAll();
+
+        }
+
+        private void listbox1_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            SearchBox.Text = String.Empty;
+            var item = (ListBox)sender;
+            var value = (ListItem)item.SelectedItem;
+            if(value != null) { 
+                switch (value.ID)
+                {
+                    case 1:
+                         searchMoviesAsync dataNowPlaying = controller.getNowPlaying();
+                         display_data(dataNowPlaying);
+                        break;
+                    case 2:
+                        searchMoviesAsync dataTopRated = controller.getTopRated();
+                        display_data(dataTopRated);
+                        break;
+                    case 3:
+                        searchMoviesAsync dataPopular = controller.getPopular();
+                        display_data(dataPopular);
+                        break;
+                    case 4:
+                        searchMoviesAsync dataUpcoming = controller.getUpcoming();
+                        display_data(dataUpcoming); ;
+                        break;
+                    default:
+                        break;
+                }
+            }
+
+        }
+        private void display_data(searchMoviesAsync data)
+        {
+            if (data.TotalCount > 0)
             {
                 Grid.Children.Clear();
                 Grid.Children.Add(new DataView(data));
@@ -82,10 +119,8 @@ namespace MovieTime
                 Grid.Children.Clear();
                 Grid.Children.Add(new LabelView());
             }
-         
+
         }
-
-
     }
 
 }
