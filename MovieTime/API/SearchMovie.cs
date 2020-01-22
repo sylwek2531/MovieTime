@@ -4,12 +4,21 @@ using System.Diagnostics;
 
 namespace MovieTime.API
 {
-    class SearchMovie:Api
+    //// <summary>
+    /// The Movie Database API
+    /// </summary>
+    ///  <remarks> Pobieranie danych dotyczących danego endpointu</remarks>
+    class SearchMovie :Api
     { 
         public SearchMovie()
         {
 
         }
+        /// <summary>
+        /// Wyszukiwanie filmu poprzez tytuł
+        /// </summary>
+        /// <param name="searchTitle">Tytuł</param>
+        /// <c>public searchMoviesAsync getMoviesByTitle(string searchTitle)</c>
         public searchMoviesAsync getMoviesByTitle(string searchTitle)
         {
 

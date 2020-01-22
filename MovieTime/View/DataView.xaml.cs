@@ -19,8 +19,15 @@ namespace MovieTime.View
 
       
     }
+
+
     public class ImagePath : IValueConverter
     {
+        /// <summary>
+        /// Wyświetlanie zdjecia
+        /// </summary>
+        /// <remarks>Zależnie od tego co dostaniemy w odpowiedzi na nasze żadanie wyświetla nam zdjęcie ktore jest w opisie filmu, lub jeśli nie ma zdjęcia wstawiamy nasze zdjecie none.png zeby nie wysypało opisu</remarks>
+        /// <returns>Image</returns>
         public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
         {
             string path;

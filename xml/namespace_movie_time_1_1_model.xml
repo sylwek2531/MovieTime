@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="namespace_movie_time_1_1_model" kind="namespace" language="C#">
+    <compoundname>MovieTime::Model</compoundname>
+    <innerclass refid="class_movie_time_1_1_model_1_1_collection" prot="public">MovieTime::Model::Collection</innerclass>
+    <innerclass refid="class_movie_time_1_1_model_1_1_collections" prot="public">MovieTime::Model::Collections</innerclass>
+    <innerclass refid="class_movie_time_1_1_model_1_1_movie" prot="public">MovieTime::Model::Movie</innerclass>
+    <innerclass refid="class_movie_time_1_1_model_1_1_movies" prot="public">MovieTime::Model::Movies</innerclass>
+    <innerclass refid="class_movie_time_1_1_model_1_1_paged_result" prot="public">MovieTime::Model::PagedResult</innerclass>
+    <innerclass refid="class_movie_time_1_1_model_1_1_resource" prot="public">MovieTime::Model::Resource</innerclass>
+    <innerclass refid="class_movie_time_1_1_model_1_1_resources" prot="public">MovieTime::Model::Resources</innerclass>
+    <innerclass refid="class_movie_time_1_1_model_1_1search_movies_async" prot="public">MovieTime::Model::searchMoviesAsync</innerclass>
+    <innerclass refid="class_movie_time_1_1_model_1_1search_page" prot="public">MovieTime::Model::searchPage</innerclass>
+    <briefdescription>
+<para>Funckcja asynchroniczna </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTime/Model/searchMoviesAsync.cs" line="11" column="1"/>
+  </compounddef>
+</doxygen>

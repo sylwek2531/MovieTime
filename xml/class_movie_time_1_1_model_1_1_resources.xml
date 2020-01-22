@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_movie_time_1_1_model_1_1_resources" kind="class" language="C#" prot="public">
+    <compoundname>MovieTime::Model::Resources</compoundname>
+    <basecompoundref refid="class_movie_time_1_1_model_1_1_paged_result" prot="public" virt="non-virtual">MovieTime.Model.PagedResult&lt; Resource &gt;</basecompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MovieTime.Model.Resources</label>
+        <link refid="class_movie_time_1_1_model_1_1_resources"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>PagedResult&lt; Resource &gt;</label>
+        <link refid="class_movie_time_1_1_model_1_1_paged_result"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MovieTime.Model.Resources</label>
+        <link refid="class_movie_time_1_1_model_1_1_resources"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>PagedResult&lt; Resource &gt;</label>
+        <link refid="class_movie_time_1_1_model_1_1_paged_result"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTime/Model/searchMoviesAsync.cs" line="26" column="1" bodyfile="C:/Users/patry/Documents/Github/MovieTime/MovieTime/Model/searchMoviesAsync.cs" bodystart="25" bodyend="27"/>
+    <listofallmembers>
+      <member refid="class_movie_time_1_1_model_1_1_paged_result_1aa4ac27b0cc858592533025303c85fde3" prot="public" virt="non-virtual"><scope>MovieTime::Model::Resources</scope><name>PageCount</name></member>
+      <member refid="class_movie_time_1_1_model_1_1_paged_result_1ac51d06dbb43ba16efb0db5ba544b542d" prot="public" virt="non-virtual"><scope>MovieTime::Model::Resources</scope><name>PageIndex</name></member>
+      <member refid="class_movie_time_1_1_model_1_1_paged_result_1ad0a11af9292bc6657ab75784d091eac0" prot="public" virt="non-virtual"><scope>MovieTime::Model::Resources</scope><name>Results</name></member>
+      <member refid="class_movie_time_1_1_model_1_1_paged_result_1a36848817544a8f785145e644555fadbe" prot="public" virt="non-virtual"><scope>MovieTime::Model::Resources</scope><name>TotalCount</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

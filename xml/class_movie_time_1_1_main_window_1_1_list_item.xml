@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_movie_time_1_1_main_window_1_1_list_item" kind="class" language="C#" prot="private">
+    <compoundname>MovieTime::MainWindow::ListItem</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_movie_time_1_1_main_window_1_1_list_item_1a6ad0c188cd7aa40e1e4f2a2afca55df8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int MovieTime.MainWindow.ListItem.ID</definition>
+        <argsstring></argsstring>
+        <name>ID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTime/View/MainWindow.xaml.cs" line="75" column="24" bodyfile="C:/Users/patry/Documents/Github/MovieTime/MovieTime/View/MainWindow.xaml.cs" bodystart="75" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="property" id="class_movie_time_1_1_main_window_1_1_list_item_1aefdb11bd1b0729abeb023cd6e1362c84" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string MovieTime.MainWindow.ListItem.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTime/View/MainWindow.xaml.cs" line="76" column="27" bodyfile="C:/Users/patry/Documents/Github/MovieTime/MovieTime/View/MainWindow.xaml.cs" bodystart="76" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="property" id="class_movie_time_1_1_main_window_1_1_list_item_1afc6b3cdbddd1ae92a8e0e8c8fcf35958" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string MovieTime.MainWindow.ListItem.ImagePath</definition>
+        <argsstring></argsstring>
+        <name>ImagePath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTime/View/MainWindow.xaml.cs" line="77" column="27" bodyfile="C:/Users/patry/Documents/Github/MovieTime/MovieTime/View/MainWindow.xaml.cs" bodystart="77" bodyend="77"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Tworzenie nowego elementu listy </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Pojedynczy element listy</para>
+<para><computeroutput>ListBoxItem</computeroutput> <programlisting><codeline><highlight class="normal">&lt;br&gt;</highlight></codeline>
+<codeline><highlight class="normal"><sp/>class<sp/>ListItem</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>public<sp/>int<sp/>ID<sp/>{<sp/>get;<sp/>set;<sp/>}</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>public<sp/>string<sp/>Name<sp/>{<sp/>get;<sp/>set;<sp/>}</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>public<sp/>string<sp/>ImagePath<sp/>{<sp/>get;<sp/>set;<sp/>}</highlight></codeline>
+<codeline><highlight class="normal"><sp/>}</highlight></codeline>
+</programlisting> </para>
+    </detaileddescription>
+    <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTime/View/MainWindow.xaml.cs" line="74" column="1" bodyfile="C:/Users/patry/Documents/Github/MovieTime/MovieTime/View/MainWindow.xaml.cs" bodystart="73" bodyend="78"/>
+    <listofallmembers>
+      <member refid="class_movie_time_1_1_main_window_1_1_list_item_1a6ad0c188cd7aa40e1e4f2a2afca55df8" prot="public" virt="non-virtual"><scope>MovieTime::MainWindow::ListItem</scope><name>ID</name></member>
+      <member refid="class_movie_time_1_1_main_window_1_1_list_item_1afc6b3cdbddd1ae92a8e0e8c8fcf35958" prot="public" virt="non-virtual"><scope>MovieTime::MainWindow::ListItem</scope><name>ImagePath</name></member>
+      <member refid="class_movie_time_1_1_main_window_1_1_list_item_1aefdb11bd1b0729abeb023cd6e1362c84" prot="public" virt="non-virtual"><scope>MovieTime::MainWindow::ListItem</scope><name>Name</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

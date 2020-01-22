@@ -91,7 +91,7 @@
                     <Label FontSize="14" Foreground="#FFC200" BorderBrush="#141414" Content="MovieTime" Background="#141414" Height="30" HorizontalContentAlignment="Center"/>
                 </StackPanel>
             </StackPanel>
-            <ListBox Name="listbox1" Grid.Row="0" HorizontalContentAlignment="Left" Width="300" BorderThickness="0" Background="#141414">
+            <ListBox Name="listbox1" Grid.Row="0" HorizontalContentAlignment="Left" Width="300" BorderThickness="0" Background="#141414" SelectedIndex="0">
 
 
                 <ListBox.ItemTemplate >
