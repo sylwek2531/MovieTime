@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="namespace_movie_time_1_1_view" kind="namespace" language="C#">
+    <compoundname>MovieTime::View</compoundname>
+    <innerclass refid="class_movie_time_1_1_view_1_1_data_view" prot="public">MovieTime::View::DataView</innerclass>
+    <innerclass refid="class_movie_time_1_1_view_1_1_image_path" prot="public">MovieTime::View::ImagePath</innerclass>
+    <innerclass refid="class_movie_time_1_1_view_1_1_label_view" prot="public">MovieTime::View::LabelView</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTime/obj/Debug/View/DataView.g.cs" line="35" column="24"/>
+  </compounddef>
+</doxygen>

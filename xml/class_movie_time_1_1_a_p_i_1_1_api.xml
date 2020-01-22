@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_movie_time_1_1_a_p_i_1_1_api" kind="class" language="C#" prot="public">
+    <compoundname>MovieTime::API::Api</compoundname>
+    <derivedcompoundref refid="class_movie_time_1_1_a_p_i_1_1_search_movie" prot="public" virt="non-virtual">MovieTime.API.SearchMovie</derivedcompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_movie_time_1_1_a_p_i_1_1_api_1aa3ace4998e73d8fe9d952ddac85c381a" prot="private" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string MovieTime.API.Api.Key</definition>
+        <argsstring></argsstring>
+        <name>Key</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTime/API/Api.cs" line="16" column="24" bodyfile="C:/Users/patry/Documents/Github/MovieTime/MovieTime/API/Api.cs" bodystart="16" bodyend="16"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_movie_time_1_1_a_p_i_1_1_api_1a205f5adac97aba590fb7758ed82d362e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MovieTime.API.Api.Api</definition>
+        <argsstring>()</argsstring>
+        <name>Api</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTime/API/Api.cs" line="17" column="15" bodyfile="C:/Users/patry/Documents/Github/MovieTime/MovieTime/API/Api.cs" bodystart="17" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_movie_time_1_1_a_p_i_1_1_api_1a2bce8be817c65b2b629ddec03c0513bd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string MovieTime.API.Api.GetKey</definition>
+        <argsstring>()</argsstring>
+        <name>GetKey</name>
+        <briefdescription>
+<para>Klucz autoryzacji </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><computeroutput>&quot;21a972e49437efa15ad8c8b404b8e5ef&quot;</computeroutput></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTime/API/Api.cs" line="50" column="23" bodyfile="C:/Users/patry/Documents/Github/MovieTime/MovieTime/API/Api.cs" bodystart="50" bodyend="53"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_movie_time_1_1_a_p_i_1_1_api_1ac89bc00a64a196f38eaf3672c178afb6" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>HttpResponseMessage</type>
+        <definition>HttpResponseMessage MovieTime.API.Api.GET</definition>
+        <argsstring>(string URL)</argsstring>
+        <name>GET</name>
+        <param>
+          <type>string</type>
+          <declname>URL</declname>
+        </param>
+        <briefdescription>
+<para>Tworzenie połączenia HTTP </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>URL</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>URL na jaki wykonujemy zapytanie</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Zwraca nam wynik</para>
+</simplesect>
+<linebreak/>
+ </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTime/API/Api.cs" line="28" column="39" bodyfile="C:/Users/patry/Documents/Github/MovieTime/MovieTime/API/Api.cs" bodystart="28" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_movie_time_1_1_a_p_i_1_1_api_1a2d9525a4c25a128876e99a61fd5edf04" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string MovieTime.API.Api.GetURI</definition>
+        <argsstring>(string path)</argsstring>
+        <name>GetURI</name>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+<para>Umieszczenie parametru w adresie URI strony </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>path</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Sciezka endpointu</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTime/API/Api.cs" line="42" column="26" bodyfile="C:/Users/patry/Documents/Github/MovieTime/MovieTime/API/Api.cs" bodystart="42" bodyend="45"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Konfiguracja <ref refid="class_movie_time_1_1_a_p_i_1_1_api" kindref="compound">Api</ref> dla naszej aplikacji </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MovieTime.API.Api</label>
+        <link refid="class_movie_time_1_1_a_p_i_1_1_api"/>
+      </node>
+      <node id="2">
+        <label>MovieTime.API.SearchMovie</label>
+        <link refid="class_movie_time_1_1_a_p_i_1_1_search_movie"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTime/API/Api.cs" line="15" column="1" bodyfile="C:/Users/patry/Documents/Github/MovieTime/MovieTime/API/Api.cs" bodystart="14" bodyend="54"/>
+    <listofallmembers>
+      <member refid="class_movie_time_1_1_a_p_i_1_1_api_1a205f5adac97aba590fb7758ed82d362e" prot="public" virt="non-virtual"><scope>MovieTime::API::Api</scope><name>Api</name></member>
+      <member refid="class_movie_time_1_1_a_p_i_1_1_api_1ac89bc00a64a196f38eaf3672c178afb6" prot="protected" virt="non-virtual"><scope>MovieTime::API::Api</scope><name>GET</name></member>
+      <member refid="class_movie_time_1_1_a_p_i_1_1_api_1a2bce8be817c65b2b629ddec03c0513bd" prot="public" virt="non-virtual"><scope>MovieTime::API::Api</scope><name>GetKey</name></member>
+      <member refid="class_movie_time_1_1_a_p_i_1_1_api_1a2d9525a4c25a128876e99a61fd5edf04" prot="protected" virt="non-virtual"><scope>MovieTime::API::Api</scope><name>GetURI</name></member>
+      <member refid="class_movie_time_1_1_a_p_i_1_1_api_1aa3ace4998e73d8fe9d952ddac85c381a" prot="private" virt="non-virtual"><scope>MovieTime::API::Api</scope><name>Key</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

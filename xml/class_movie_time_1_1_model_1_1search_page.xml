@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_movie_time_1_1_model_1_1search_page" kind="class" language="C#" prot="public">
+    <compoundname>MovieTime::Model::searchPage</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_movie_time_1_1_model_1_1search_page_1a74185cd27cbfa8d5de0f435aa7863e76" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string MovieTime.Model.searchPage.MovieName</definition>
+        <argsstring></argsstring>
+        <name>MovieName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTime/Model/searchPage.cs" line="9" column="23" bodyfile="C:/Users/patry/Documents/Github/MovieTime/MovieTime/Model/searchPage.cs" bodystart="9" bodyend="9"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Pobieranie nazwy filmu ktory chcemy wyszukać </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTime/Model/searchPage.cs" line="8" column="1" bodyfile="C:/Users/patry/Documents/Github/MovieTime/MovieTime/Model/searchPage.cs" bodystart="7" bodyend="10"/>
+    <listofallmembers>
+      <member refid="class_movie_time_1_1_model_1_1search_page_1a74185cd27cbfa8d5de0f435aa7863e76" prot="public" virt="non-virtual"><scope>MovieTime::Model::searchPage</scope><name>MovieName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

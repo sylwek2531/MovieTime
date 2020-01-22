@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="namespace_movie_time_1_1_properties" kind="namespace" language="C#">
+    <compoundname>MovieTime::Properties</compoundname>
+    <innerclass refid="class_movie_time_1_1_properties_1_1_resources" prot="package">MovieTime::Properties::Resources</innerclass>
+    <innerclass refid="class_movie_time_1_1_properties_1_1_settings" prot="package">MovieTime::Properties::Settings</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTime/Properties/Resources.Designer.cs" line="12" column="1"/>
+  </compounddef>
+</doxygen>

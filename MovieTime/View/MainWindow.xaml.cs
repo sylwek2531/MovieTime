@@ -57,13 +57,30 @@ namespace MovieTime
             listbox1.ItemsSource = list;
         }
 
+        /// <summary>
+        /// Tworzenie nowego elementu listy
+        /// </summary>
+        /// <remarks>Pojedynczy element listy</remarks>
+        /// <c>ListBoxItem</c>
+        /// <code>  
+        /// class ListItem
+        ///{
+        ///  public int ID { get; set; }
+        ///  public string Name { get; set; }
+        ///  public string ImagePath { get; set; }
+        /// }
+        /// </code>
         class ListItem
         {
             public int ID { get; set; }
             public string Name { get; set; }
             public string ImagePath { get; set; }
         }
-
+        /// <summary>
+        /// Wyszukiwanie filmu
+        /// </summary>
+        /// <param name="sender">Obiekt, który wywołał metodę</param>
+        /// <param name="e">Ustawione na elementy zdarzenia</param> 
         private void Search_Click(object sender, RoutedEventArgs e)
         {
             if (string.IsNullOrEmpty(viewModel.MovieName))

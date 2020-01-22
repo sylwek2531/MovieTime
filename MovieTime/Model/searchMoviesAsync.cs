@@ -2,6 +2,11 @@
 using System.Collections.Generic;
 using System.Runtime.Serialization;
 
+
+
+/// <summary>
+/// Funckcja asynchroniczna
+/// </summary>
 namespace MovieTime.Model
 {
 
@@ -20,7 +25,10 @@ namespace MovieTime.Model
     public class Resources : PagedResult<Resource>
     {
     }
-  
+
+    /// <summary>
+    /// Pobrana kolekcja 
+    /// </summary>
     [DataContract]
     public class Collection
     {
@@ -41,7 +49,9 @@ namespace MovieTime.Model
     public class Collections : PagedResult<Collection>
     {
     }
-
+    /// <summary>
+    /// Pobrane wartości których możemy użyć
+    /// </summary>
     [DataContract]
     public class Movie : Resource
     {

@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_movie_time_1_1_controller_1_1_controller_main" kind="class" language="C#" prot="public">
+    <compoundname>MovieTime::Controller::ControllerMain</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_movie_time_1_1_controller_1_1_controller_main_1a00c752054baed3bb3b2cdac9aaa366db" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_movie_time_1_1_model_1_1search_movies_async" kindref="compound">searchMoviesAsync</ref></type>
+        <definition>searchMoviesAsync MovieTime.Controller.ControllerMain.getSearchMovie</definition>
+        <argsstring>(string MovieName)</argsstring>
+        <name>getSearchMovie</name>
+        <param>
+          <type>string</type>
+          <declname>MovieName</declname>
+        </param>
+        <briefdescription>
+<para>Wyszukiwanie filmu </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>MovieName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Tytuł filmu</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Zwrócenie danych z zapytania</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTime/Controller/ControllerMain.cs" line="16" column="34" bodyfile="C:/Users/patry/Documents/Github/MovieTime/MovieTime/Controller/ControllerMain.cs" bodystart="16" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Włączenie metody </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTime/Controller/ControllerMain.cs" line="10" column="1" bodyfile="C:/Users/patry/Documents/Github/MovieTime/MovieTime/Controller/ControllerMain.cs" bodystart="9" bodyend="22"/>
+    <listofallmembers>
+      <member refid="class_movie_time_1_1_controller_1_1_controller_main_1a00c752054baed3bb3b2cdac9aaa366db" prot="public" virt="non-virtual"><scope>MovieTime::Controller::ControllerMain</scope><name>getSearchMovie</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
