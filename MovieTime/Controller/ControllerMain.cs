@@ -1,6 +1,6 @@
-﻿using MovieTime.API;
+﻿
 using MovieTime.Model;
-
+using MovieTimeLibrary;
 namespace MovieTime.Controller
 {
     /// <summary>
