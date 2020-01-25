@@ -27,11 +27,6 @@
     <member refid="class_xaml_generated_namespace_1_1_generated_internal_type_helper_1ade0f04c0f7b18dd5b170e071d5534d38" kind="function"><name>SetPropertyValue</name></member>
     <member refid="class_xaml_generated_namespace_1_1_generated_internal_type_helper_1a8ec4c37e82d9f4e867e9655f4eac3a78" kind="function"><name>CreateDelegate</name></member>
     <member refid="class_xaml_generated_namespace_1_1_generated_internal_type_helper_1a73471f4a6d1ca4c4fceec9ad8610f0c8" kind="function"><name>AddEventHandler</name></member>
-    <member refid="class_xaml_generated_namespace_1_1_generated_internal_type_helper_1aefb7a98fceb9c287cef4756942f441d1" kind="function"><name>CreateInstance</name></member>
-    <member refid="class_xaml_generated_namespace_1_1_generated_internal_type_helper_1afdc9fe15b56607d02082908d934480c6" kind="function"><name>GetPropertyValue</name></member>
-    <member refid="class_xaml_generated_namespace_1_1_generated_internal_type_helper_1ade0f04c0f7b18dd5b170e071d5534d38" kind="function"><name>SetPropertyValue</name></member>
-    <member refid="class_xaml_generated_namespace_1_1_generated_internal_type_helper_1a8ec4c37e82d9f4e867e9655f4eac3a78" kind="function"><name>CreateDelegate</name></member>
-    <member refid="class_xaml_generated_namespace_1_1_generated_internal_type_helper_1a73471f4a6d1ca4c4fceec9ad8610f0c8" kind="function"><name>AddEventHandler</name></member>
   </compound>
   <compound refid="class_movie_time_1_1_view_1_1_image_path" kind="class"><name>MovieTime::View::ImagePath</name>
     <member refid="class_movie_time_1_1_view_1_1_image_path_1aa4d9dd8c632f1f90733bc9454e0cfdeb" kind="function"><name>Convert</name></member>
@@ -171,6 +166,8 @@
   <compound refid="_generated_internal_type_helper_8g_8cs" kind="file"><name>GeneratedInternalTypeHelper.g.cs</name>
   </compound>
   <compound refid="_generated_internal_type_helper_8g_8i_8cs" kind="file"><name>GeneratedInternalTypeHelper.g.i.cs</name>
+  </compound>
+  <compound refid="_movie_time_8csproj_8_file_list_absolute_8txt" kind="file"><name>MovieTime.csproj.FileListAbsolute.txt</name>
   </compound>
   <compound refid="_data_view_8g_8cs" kind="file"><name>DataView.g.cs</name>
   </compound>
