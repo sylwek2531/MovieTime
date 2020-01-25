@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_movie_time_1_1_controller_1_1_tests_1_1_controller_main_tests" kind="class" language="C#" prot="public">
+    <compoundname>MovieTime::Controller::Tests::ControllerMainTests</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_movie_time_1_1_controller_1_1_tests_1_1_controller_main_tests_1a3996ac9dae6ba1f8027612ae3ac1b15d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MovieTime.Controller.Tests.ControllerMainTests.getSearchMovieTest</definition>
+        <argsstring>(string MovieName)</argsstring>
+        <name>getSearchMovieTest</name>
+        <param>
+          <type>string</type>
+          <declname>MovieName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTimeTests/Controller/ControllerMainTests.cs" line="11" column="21" bodyfile="C:/Users/patry/Documents/Github/MovieTime/MovieTimeTests/Controller/ControllerMainTests.cs" bodystart="11" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_movie_time_1_1_controller_1_1_tests_1_1_controller_main_tests_1a3837b1aeb6aabaa3a5655b135f644e1c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MovieTime.Controller.Tests.ControllerMainTests.getNowPlayingTest</definition>
+        <argsstring>()</argsstring>
+        <name>getNowPlayingTest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTimeTests/Controller/ControllerMainTests.cs" line="20" column="21" bodyfile="C:/Users/patry/Documents/Github/MovieTime/MovieTimeTests/Controller/ControllerMainTests.cs" bodystart="20" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_movie_time_1_1_controller_1_1_tests_1_1_controller_main_tests_1a2fe154a9917c866a2545405d95100151" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MovieTime.Controller.Tests.ControllerMainTests.getTopRatedTest</definition>
+        <argsstring>()</argsstring>
+        <name>getTopRatedTest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTimeTests/Controller/ControllerMainTests.cs" line="28" column="21" bodyfile="C:/Users/patry/Documents/Github/MovieTime/MovieTimeTests/Controller/ControllerMainTests.cs" bodystart="28" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_movie_time_1_1_controller_1_1_tests_1_1_controller_main_tests_1a80265fa61191b69ff472047fc8c72156" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MovieTime.Controller.Tests.ControllerMainTests.getPopularTest</definition>
+        <argsstring>()</argsstring>
+        <name>getPopularTest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTimeTests/Controller/ControllerMainTests.cs" line="36" column="21" bodyfile="C:/Users/patry/Documents/Github/MovieTime/MovieTimeTests/Controller/ControllerMainTests.cs" bodystart="36" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="class_movie_time_1_1_controller_1_1_tests_1_1_controller_main_tests_1a29f05f629b57a003af3173402e9602f8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MovieTime.Controller.Tests.ControllerMainTests.getUpcomingTest</definition>
+        <argsstring>()</argsstring>
+        <name>getUpcomingTest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTimeTests/Controller/ControllerMainTests.cs" line="44" column="21" bodyfile="C:/Users/patry/Documents/Github/MovieTime/MovieTimeTests/Controller/ControllerMainTests.cs" bodystart="44" bodyend="50"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTimeTests/Controller/ControllerMainTests.cs" line="8" column="1" bodyfile="C:/Users/patry/Documents/Github/MovieTime/MovieTimeTests/Controller/ControllerMainTests.cs" bodystart="7" bodyend="51"/>
+    <listofallmembers>
+      <member refid="class_movie_time_1_1_controller_1_1_tests_1_1_controller_main_tests_1a3837b1aeb6aabaa3a5655b135f644e1c" prot="public" virt="non-virtual"><scope>MovieTime::Controller::Tests::ControllerMainTests</scope><name>getNowPlayingTest</name></member>
+      <member refid="class_movie_time_1_1_controller_1_1_tests_1_1_controller_main_tests_1a80265fa61191b69ff472047fc8c72156" prot="public" virt="non-virtual"><scope>MovieTime::Controller::Tests::ControllerMainTests</scope><name>getPopularTest</name></member>
+      <member refid="class_movie_time_1_1_controller_1_1_tests_1_1_controller_main_tests_1a3996ac9dae6ba1f8027612ae3ac1b15d" prot="public" virt="non-virtual"><scope>MovieTime::Controller::Tests::ControllerMainTests</scope><name>getSearchMovieTest</name></member>
+      <member refid="class_movie_time_1_1_controller_1_1_tests_1_1_controller_main_tests_1a2fe154a9917c866a2545405d95100151" prot="public" virt="non-virtual"><scope>MovieTime::Controller::Tests::ControllerMainTests</scope><name>getTopRatedTest</name></member>
+      <member refid="class_movie_time_1_1_controller_1_1_tests_1_1_controller_main_tests_1a29f05f629b57a003af3173402e9602f8" prot="public" virt="non-virtual"><scope>MovieTime::Controller::Tests::ControllerMainTests</scope><name>getUpcomingTest</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

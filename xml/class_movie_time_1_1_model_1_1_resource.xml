@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTime/Model/searchMoviesAsync.cs" line="22" column="20" bodyfile="C:/Users/patry/Documents/Github/MovieTime/MovieTime/Model/searchMoviesAsync.cs" bodystart="22" bodyend="22"/>
+        <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTimeLibrary/Model/searchMoviesAsync.cs" line="22" column="20" bodyfile="C:/Users/patry/Documents/Github/MovieTime/MovieTimeLibrary/Model/searchMoviesAsync.cs" bodystart="22" bodyend="22"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -34,7 +34,7 @@
         <link refid="class_movie_time_1_1_model_1_1_resource"/>
       </node>
     </inheritancegraph>
-    <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTime/Model/searchMoviesAsync.cs" line="20" column="1" bodyfile="C:/Users/patry/Documents/Github/MovieTime/MovieTime/Model/searchMoviesAsync.cs" bodystart="19" bodyend="23"/>
+    <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTimeLibrary/Model/searchMoviesAsync.cs" line="20" column="1" bodyfile="C:/Users/patry/Documents/Github/MovieTime/MovieTimeLibrary/Model/searchMoviesAsync.cs" bodystart="19" bodyend="23"/>
     <listofallmembers>
       <member refid="class_movie_time_1_1_model_1_1_resource_1a153b768a2ecde4752d3938b0cf6c5e0d" prot="public" virt="non-virtual"><scope>MovieTime::Model::Resource</scope><name>Id</name></member>
     </listofallmembers>

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="dir_e781930f668a01a57feb10c618100c8c" kind="dir">
+    <compoundname>C:/Users/patry/Documents/Github/MovieTime/MovieTimeTests</compoundname>
+    <innerdir refid="dir_77e9b75c039f70bb329b580a40cfe3d7">C:/Users/patry/Documents/Github/MovieTime/MovieTimeTests/Controller</innerdir>
+    <innerdir refid="dir_aa4e75437fc098bea6dd41224871f104">C:/Users/patry/Documents/Github/MovieTime/MovieTimeTests/Properties</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTimeTests/"/>
+  </compounddef>
+</doxygen>

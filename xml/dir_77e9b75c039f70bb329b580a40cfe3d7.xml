@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="dir_77e9b75c039f70bb329b580a40cfe3d7" kind="dir">
+    <compoundname>C:/Users/patry/Documents/Github/MovieTime/MovieTimeTests/Controller</compoundname>
+    <innerfile refid="_controller_main_tests_8cs">ControllerMainTests.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTimeTests/Controller/"/>
+  </compounddef>
+</doxygen>

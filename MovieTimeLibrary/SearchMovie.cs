@@ -15,7 +15,7 @@ namespace MovieTimeLibrary
 
         }
         /// <summary>
-        /// Wyszukiwanie filmu poprzez tytuł
+        /// Metoda wyszukiwania filmu po tytule
         /// </summary>
         /// <param name="searchTitle">Tytuł</param>
         /// <c>public searchMoviesAsync getMoviesByTitle(string searchTitle)</c>
@@ -36,7 +36,10 @@ namespace MovieTimeLibrary
         }
 
 
-
+        /// <summary>
+        /// Metoda pobierania danych o filmach "teraz granych"
+        /// </summary>
+        /// <returns>Teraz grane</returns>
         public searchMoviesAsync getMoviesNowPlaying()
         {
             string path = "movie/now_playing";
@@ -52,6 +55,11 @@ namespace MovieTimeLibrary
             }
 
         }
+
+        /// <summary>
+        /// Metoda pobierania danych o top filmach
+        /// </summary>
+        /// <returns>Top</returns>
         public searchMoviesAsync getMoviesTopRated()
         {
             string path = "movie/top_rated";
@@ -67,6 +75,11 @@ namespace MovieTimeLibrary
             }
 
         }
+
+        /// <summary>
+        /// Metoda pobierania danych o popularnych filmach
+        /// </summary>
+        /// <returns>Popularnych</returns>
         public searchMoviesAsync getMoviesPopular()
         {
             string path = "movie/popular";
@@ -82,6 +95,11 @@ namespace MovieTimeLibrary
             }
 
         }
+
+        /// <summary>
+        /// Metoda pobierania danych o nadchodzacych filmach
+        /// </summary>
+        /// <returns>Nadchodzące</returns>
         public searchMoviesAsync getMoviesUpcoming()
         {
             string path = "movie/upcoming";

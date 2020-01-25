@@ -15,7 +15,7 @@ var dir_7136d6af6d4e488ad3ced63b1dcd0ac8 =
     [ "MainWindow.g.cs", "_main_window_8g_8cs.html", [
       [ "MainWindow", "class_movie_time_1_1_main_window.html", "class_movie_time_1_1_main_window" ]
     ] ],
-    [ "MainWindow.g.i.cs", "_view_2_main_window_8g_8i_8cs.html", [
+    [ "MainWindow.g.i.cs", "_main_window_8g_8i_8cs.html", [
       [ "MainWindow", "class_movie_time_1_1_main_window.html", "class_movie_time_1_1_main_window" ]
     ] ]
 ];

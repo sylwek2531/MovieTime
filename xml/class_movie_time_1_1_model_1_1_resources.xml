@@ -31,7 +31,7 @@
         <link refid="class_movie_time_1_1_model_1_1_paged_result"/>
       </node>
     </collaborationgraph>
-    <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTime/Model/searchMoviesAsync.cs" line="26" column="1" bodyfile="C:/Users/patry/Documents/Github/MovieTime/MovieTime/Model/searchMoviesAsync.cs" bodystart="25" bodyend="27"/>
+    <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTimeLibrary/Model/searchMoviesAsync.cs" line="26" column="1" bodyfile="C:/Users/patry/Documents/Github/MovieTime/MovieTimeLibrary/Model/searchMoviesAsync.cs" bodystart="25" bodyend="27"/>
     <listofallmembers>
       <member refid="class_movie_time_1_1_model_1_1_paged_result_1aa4ac27b0cc858592533025303c85fde3" prot="public" virt="non-virtual"><scope>MovieTime::Model::Resources</scope><name>PageCount</name></member>
       <member refid="class_movie_time_1_1_model_1_1_paged_result_1ac51d06dbb43ba16efb0db5ba544b542d" prot="public" virt="non-virtual"><scope>MovieTime::Model::Resources</scope><name>PageIndex</name></member>

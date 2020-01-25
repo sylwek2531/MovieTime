@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="dir_407682715a9270b528efabf5297fb057" kind="dir">
+    <compoundname>C:/Users/patry/Documents/Github/MovieTime/MovieTimeLibrary</compoundname>
+    <innerdir refid="dir_04d56b9fb5e22c795aa0359d722975e5">C:/Users/patry/Documents/Github/MovieTime/MovieTimeLibrary/Model</innerdir>
+    <innerdir refid="dir_9a5ec9cb51c703299e96176acc79fba9">C:/Users/patry/Documents/Github/MovieTime/MovieTimeLibrary/obj</innerdir>
+    <innerfile refid="_api_8cs">Api.cs</innerfile>
+    <innerfile refid="_search_movie_8cs">SearchMovie.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTimeLibrary/"/>
+  </compounddef>
+</doxygen>

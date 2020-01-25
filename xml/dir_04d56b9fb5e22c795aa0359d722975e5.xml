@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="dir_04d56b9fb5e22c795aa0359d722975e5" kind="dir">
+    <compoundname>C:/Users/patry/Documents/Github/MovieTime/MovieTimeLibrary/Model</compoundname>
+    <innerfile refid="search_movies_async_8cs">searchMoviesAsync.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTimeLibrary/Model/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="dir_aa4e75437fc098bea6dd41224871f104" kind="dir">
+    <compoundname>C:/Users/patry/Documents/Github/MovieTime/MovieTimeTests/Properties</compoundname>
+    <innerfile refid="ests_2_properties_2_assembly_info_8cs">AssemblyInfo.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTimeTests/Properties/"/>
+  </compounddef>
+</doxygen>

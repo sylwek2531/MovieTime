@@ -17,7 +17,20 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTime/obj/Debug/MainWindow/MainWindow.g.i.cs" line="46" column="47" bodyfile="C:/Users/patry/Documents/Github/MovieTime/MovieTime/obj/Debug/MainWindow/MainWindow.g.i.cs" bodystart="46" bodyend="-1"/>
+        <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTime/obj/Debug/View/MainWindow.g.cs" line="46" column="47" bodyfile="C:/Users/patry/Documents/Github/MovieTime/MovieTime/obj/Debug/View/MainWindow.g.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_movie_time_1_1_main_window_1a87f53c068ded5daa0c42dc8a18d79941" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.TextBox</type>
+        <definition>System Windows Controls TextBox MovieTime.MainWindow::SearchBox</definition>
+        <argsstring></argsstring>
+        <name>SearchBox</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTime/obj/Debug/View/MainWindow.g.cs" line="54" column="47" bodyfile="C:/Users/patry/Documents/Github/MovieTime/MovieTime/obj/Debug/View/MainWindow.g.cs" bodystart="54" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_movie_time_1_1_main_window_1a9ccff804b72ebce00738caae59fc7071" prot="package" static="no" mutable="no">
         <type>System.Windows.Controls.Image</type>
@@ -30,7 +43,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTime/obj/Debug/MainWindow/MainWindow.g.i.cs" line="54" column="45" bodyfile="C:/Users/patry/Documents/Github/MovieTime/MovieTime/obj/Debug/MainWindow/MainWindow.g.i.cs" bodystart="54" bodyend="-1"/>
+        <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTime/obj/Debug/View/MainWindow.g.cs" line="62" column="45" bodyfile="C:/Users/patry/Documents/Github/MovieTime/MovieTime/obj/Debug/View/MainWindow.g.cs" bodystart="62" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_movie_time_1_1_main_window_1a8782dfc85818bee540f2fe38265797f8" prot="package" static="no" mutable="no">
         <type>System.Windows.Controls.Grid</type>
@@ -43,7 +56,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTime/obj/Debug/MainWindow/MainWindow.g.i.cs" line="62" column="44" bodyfile="C:/Users/patry/Documents/Github/MovieTime/MovieTime/obj/Debug/MainWindow/MainWindow.g.i.cs" bodystart="62" bodyend="-1"/>
+        <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTime/obj/Debug/View/MainWindow.g.cs" line="70" column="44" bodyfile="C:/Users/patry/Documents/Github/MovieTime/MovieTime/obj/Debug/View/MainWindow.g.cs" bodystart="70" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-attrib">
@@ -58,7 +71,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTime/obj/Debug/MainWindow/MainWindow.g.i.cs" line="67" column="22" bodyfile="C:/Users/patry/Documents/Github/MovieTime/MovieTime/obj/Debug/MainWindow/MainWindow.g.i.cs" bodystart="67" bodyend="-1"/>
+        <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTime/obj/Debug/View/MainWindow.g.cs" line="75" column="22" bodyfile="C:/Users/patry/Documents/Github/MovieTime/MovieTime/obj/Debug/View/MainWindow.g.cs" bodystart="75" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="class_movie_time_1_1_main_window_1af7857a3ca9b47db2123a8201ccab5a07" prot="private" static="no" mutable="no">
         <type><ref refid="class_movie_time_1_1_controller_1_1_controller_main" kindref="compound">ControllerMain</ref></type>
@@ -100,7 +113,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTime/obj/Debug/MainWindow/MainWindow.g.i.cs" line="74" column="21" bodyfile="C:/Users/patry/Documents/Github/MovieTime/MovieTime/obj/Debug/MainWindow/MainWindow.g.i.cs" bodystart="74" bodyend="86"/>
+        <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTime/obj/Debug/View/MainWindow.g.cs" line="82" column="21" bodyfile="C:/Users/patry/Documents/Github/MovieTime/MovieTime/obj/Debug/View/MainWindow.g.cs" bodystart="82" bodyend="94"/>
       </memberdef>
       <memberdef kind="function" id="class_movie_time_1_1_main_window_1a87ce2328cc2ef8586943528e3cc07850" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -114,35 +127,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTime/obj/Debug/MainWindowView/MainWindow.g.i.cs" line="74" column="21" bodyfile="C:/Users/patry/Documents/Github/MovieTime/MovieTime/obj/Debug/MainWindowView/MainWindow.g.i.cs" bodystart="74" bodyend="86"/>
-      </memberdef>
-      <memberdef kind="function" id="class_movie_time_1_1_main_window_1a87ce2328cc2ef8586943528e3cc07850" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MovieTime.MainWindow.InitializeComponent</definition>
-        <argsstring>()</argsstring>
-        <name>InitializeComponent</name>
-        <briefdescription>
-<para>InitializeComponent </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTime/obj/Debug/View/MainWindow.g.cs" line="74" column="21" bodyfile="C:/Users/patry/Documents/Github/MovieTime/MovieTime/obj/Debug/View/MainWindow.g.cs" bodystart="74" bodyend="86"/>
-      </memberdef>
-      <memberdef kind="function" id="class_movie_time_1_1_main_window_1a87ce2328cc2ef8586943528e3cc07850" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void</type>
-        <definition>void MovieTime.MainWindow.InitializeComponent</definition>
-        <argsstring>()</argsstring>
-        <name>InitializeComponent</name>
-        <briefdescription>
-<para>InitializeComponent </para>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTime/obj/Debug/View/MainWindow.g.i.cs" line="74" column="21" bodyfile="C:/Users/patry/Documents/Github/MovieTime/MovieTime/obj/Debug/View/MainWindow.g.i.cs" bodystart="74" bodyend="86"/>
+        <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTime/obj/Debug/View/MainWindow.g.i.cs" line="82" column="21" bodyfile="C:/Users/patry/Documents/Github/MovieTime/MovieTime/obj/Debug/View/MainWindow.g.i.cs" bodystart="82" bodyend="94"/>
       </memberdef>
       <memberdef kind="function" id="class_movie_time_1_1_main_window_1a05346605c8b78ee366052af58ddc9daf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -178,7 +163,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTime/obj/Debug/MainWindow/MainWindow.g.i.cs" line="94" column="52" bodyfile="C:/Users/patry/Documents/Github/MovieTime/MovieTime/obj/Debug/MainWindow/MainWindow.g.i.cs" bodystart="94" bodyend="116"/>
+        <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTime/obj/Debug/View/MainWindow.g.cs" line="102" column="52" bodyfile="C:/Users/patry/Documents/Github/MovieTime/MovieTime/obj/Debug/View/MainWindow.g.cs" bodystart="102" bodyend="133"/>
       </memberdef>
       <memberdef kind="function" id="class_movie_time_1_1_main_window_1a0523e97a5ae32cea92aa5f6918826d23" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void System.Windows.Markup.IComponentConnector.</type>
@@ -199,49 +184,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTime/obj/Debug/MainWindowView/MainWindow.g.i.cs" line="94" column="52" bodyfile="C:/Users/patry/Documents/Github/MovieTime/MovieTime/obj/Debug/MainWindowView/MainWindow.g.i.cs" bodystart="94" bodyend="116"/>
-      </memberdef>
-      <memberdef kind="function" id="class_movie_time_1_1_main_window_1a0523e97a5ae32cea92aa5f6918826d23" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void System.Windows.Markup.IComponentConnector.</type>
-        <definition>void System.Windows.Markup.IComponentConnector. MovieTime.MainWindow.Connect</definition>
-        <argsstring>(int connectionId, object target)</argsstring>
-        <name>Connect</name>
-        <param>
-          <type>int</type>
-          <declname>connectionId</declname>
-        </param>
-        <param>
-          <type>object</type>
-          <declname>target</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTime/obj/Debug/View/MainWindow.g.cs" line="94" column="52" bodyfile="C:/Users/patry/Documents/Github/MovieTime/MovieTime/obj/Debug/View/MainWindow.g.cs" bodystart="94" bodyend="116"/>
-      </memberdef>
-      <memberdef kind="function" id="class_movie_time_1_1_main_window_1a0523e97a5ae32cea92aa5f6918826d23" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>void System.Windows.Markup.IComponentConnector.</type>
-        <definition>void System.Windows.Markup.IComponentConnector. MovieTime.MainWindow.Connect</definition>
-        <argsstring>(int connectionId, object target)</argsstring>
-        <name>Connect</name>
-        <param>
-          <type>int</type>
-          <declname>connectionId</declname>
-        </param>
-        <param>
-          <type>object</type>
-          <declname>target</declname>
-        </param>
-        <briefdescription>
-        </briefdescription>
-        <detaileddescription>
-        </detaileddescription>
-        <inbodydescription>
-        </inbodydescription>
-        <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTime/obj/Debug/View/MainWindow.g.i.cs" line="94" column="52" bodyfile="C:/Users/patry/Documents/Github/MovieTime/MovieTime/obj/Debug/View/MainWindow.g.i.cs" bodystart="94" bodyend="116"/>
+        <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTime/obj/Debug/View/MainWindow.g.i.cs" line="102" column="52" bodyfile="C:/Users/patry/Documents/Github/MovieTime/MovieTime/obj/Debug/View/MainWindow.g.i.cs" bodystart="102" bodyend="133"/>
       </memberdef>
       <memberdef kind="function" id="class_movie_time_1_1_main_window_1ad5c1583c3070788b1343c0382096d9d2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -282,7 +225,45 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTime/View/MainWindow.xaml.cs" line="84" column="22" bodyfile="C:/Users/patry/Documents/Github/MovieTime/MovieTime/View/MainWindow.xaml.cs" bodystart="84" bodyend="103"/>
+        <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTime/View/MainWindow.xaml.cs" line="84" column="22" bodyfile="C:/Users/patry/Documents/Github/MovieTime/MovieTime/View/MainWindow.xaml.cs" bodystart="84" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="class_movie_time_1_1_main_window_1a811e3e32cfb21c095c25f517aa425d56" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MovieTime.MainWindow.listbox1_SelectionChanged</definition>
+        <argsstring>(object sender, SelectionChangedEventArgs e)</argsstring>
+        <name>listbox1_SelectionChanged</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>SelectionChangedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTime/View/MainWindow.xaml.cs" line="97" column="22" bodyfile="C:/Users/patry/Documents/Github/MovieTime/MovieTime/View/MainWindow.xaml.cs" bodystart="97" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="function" id="class_movie_time_1_1_main_window_1afd671ac0648a93a3080a8721453f5e3c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MovieTime.MainWindow.display_data</definition>
+        <argsstring>(searchMoviesAsync data)</argsstring>
+        <name>display_data</name>
+        <param>
+          <type>searchMoviesAsync</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTime/View/MainWindow.xaml.cs" line="127" column="22" bodyfile="C:/Users/patry/Documents/Github/MovieTime/MovieTime/View/MainWindow.xaml.cs" bodystart="127" bodyend="140"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -322,6 +303,7 @@
           <edgelabel>listbox1</edgelabel>
           <edgelabel>Grid</edgelabel>
           <edgelabel>iIcon3</edgelabel>
+          <edgelabel>SearchBox</edgelabel>
         </childnode>
       </node>
       <node id="4">
@@ -331,23 +313,22 @@
         <label>System::Windows::Markup::IComponentConnector</label>
       </node>
     </collaborationgraph>
-    <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTime/obj/Debug/MainWindow/MainWindow.g.i.cs" line="41" column="39" bodyfile="C:/Users/patry/Documents/Github/MovieTime/MovieTime/obj/Debug/MainWindow/MainWindow.g.i.cs" bodystart="41" bodyend="117"/>
+    <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTime/obj/Debug/View/MainWindow.g.cs" line="41" column="39" bodyfile="C:/Users/patry/Documents/Github/MovieTime/MovieTime/obj/Debug/View/MainWindow.g.cs" bodystart="41" bodyend="134"/>
     <listofallmembers>
       <member refid="class_movie_time_1_1_main_window_1ae9b68584d27872525cdf700a2b66f049" prot="private" virt="non-virtual"><scope>MovieTime::MainWindow</scope><name>_contentLoaded</name></member>
       <member refid="class_movie_time_1_1_main_window_1a0523e97a5ae32cea92aa5f6918826d23" prot="private" virt="non-virtual"><scope>MovieTime::MainWindow</scope><name>Connect</name></member>
       <member refid="class_movie_time_1_1_main_window_1a0523e97a5ae32cea92aa5f6918826d23" prot="private" virt="non-virtual"><scope>MovieTime::MainWindow</scope><name>Connect</name></member>
-      <member refid="class_movie_time_1_1_main_window_1a0523e97a5ae32cea92aa5f6918826d23" prot="private" virt="non-virtual"><scope>MovieTime::MainWindow</scope><name>Connect</name></member>
-      <member refid="class_movie_time_1_1_main_window_1a0523e97a5ae32cea92aa5f6918826d23" prot="private" virt="non-virtual"><scope>MovieTime::MainWindow</scope><name>Connect</name></member>
       <member refid="class_movie_time_1_1_main_window_1af7857a3ca9b47db2123a8201ccab5a07" prot="private" virt="non-virtual"><scope>MovieTime::MainWindow</scope><name>controller</name></member>
+      <member refid="class_movie_time_1_1_main_window_1afd671ac0648a93a3080a8721453f5e3c" prot="private" virt="non-virtual"><scope>MovieTime::MainWindow</scope><name>display_data</name></member>
       <member refid="class_movie_time_1_1_main_window_1a8782dfc85818bee540f2fe38265797f8" prot="package" virt="non-virtual"><scope>MovieTime::MainWindow</scope><name>Grid</name></member>
       <member refid="class_movie_time_1_1_main_window_1a9ccff804b72ebce00738caae59fc7071" prot="package" virt="non-virtual"><scope>MovieTime::MainWindow</scope><name>iIcon3</name></member>
       <member refid="class_movie_time_1_1_main_window_1a87ce2328cc2ef8586943528e3cc07850" prot="public" virt="non-virtual"><scope>MovieTime::MainWindow</scope><name>InitializeComponent</name></member>
       <member refid="class_movie_time_1_1_main_window_1a87ce2328cc2ef8586943528e3cc07850" prot="public" virt="non-virtual"><scope>MovieTime::MainWindow</scope><name>InitializeComponent</name></member>
-      <member refid="class_movie_time_1_1_main_window_1a87ce2328cc2ef8586943528e3cc07850" prot="public" virt="non-virtual"><scope>MovieTime::MainWindow</scope><name>InitializeComponent</name></member>
-      <member refid="class_movie_time_1_1_main_window_1a87ce2328cc2ef8586943528e3cc07850" prot="public" virt="non-virtual"><scope>MovieTime::MainWindow</scope><name>InitializeComponent</name></member>
       <member refid="class_movie_time_1_1_main_window_1ae6d24a13d691297c9a9870b1d3bbcb3f" prot="package" virt="non-virtual"><scope>MovieTime::MainWindow</scope><name>listbox1</name></member>
+      <member refid="class_movie_time_1_1_main_window_1a811e3e32cfb21c095c25f517aa425d56" prot="private" virt="non-virtual"><scope>MovieTime::MainWindow</scope><name>listbox1_SelectionChanged</name></member>
       <member refid="class_movie_time_1_1_main_window_1a05346605c8b78ee366052af58ddc9daf" prot="public" virt="non-virtual"><scope>MovieTime::MainWindow</scope><name>MainWindow</name></member>
       <member refid="class_movie_time_1_1_main_window_1ad5c1583c3070788b1343c0382096d9d2" prot="private" virt="non-virtual"><scope>MovieTime::MainWindow</scope><name>Search_Click</name></member>
+      <member refid="class_movie_time_1_1_main_window_1a87f53c068ded5daa0c42dc8a18d79941" prot="package" virt="non-virtual"><scope>MovieTime::MainWindow</scope><name>SearchBox</name></member>
       <member refid="class_movie_time_1_1_main_window_1a93dc590ea6f4f2725e15d02fdf11931f" prot="private" virt="non-virtual"><scope>MovieTime::MainWindow</scope><name>viewModel</name></member>
     </listofallmembers>
   </compounddef>

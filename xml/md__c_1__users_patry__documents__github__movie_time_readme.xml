@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="md__c_1__users_patry__documents__github__movie_time_readme" kind="page">
+    <compoundname>md_C:_Users_patry_Documents_Github_MovieTime_readme</compoundname>
+    <title>MovieTime</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Projekt zaloczeniowy C# Aplikacja s³u¿¹ca do wyszukiwania filmów z API bazy filmów serwisu <ulink url="https://www.themoviedb.org/">https://www.themoviedb.org/</ulink>. </para>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

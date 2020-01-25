@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_movie_time_library_1_1_search_movie" kind="class" language="C#" prot="public">
+    <compoundname>MovieTimeLibrary::SearchMovie</compoundname>
+    <basecompoundref refid="class_movie_time_library_1_1_api" prot="public" virt="non-virtual">MovieTimeLibrary.Api</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_movie_time_library_1_1_search_movie_1a361efd32bb854d29d18d0385d6222ed5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MovieTimeLibrary.SearchMovie.SearchMovie</definition>
+        <argsstring>()</argsstring>
+        <name>SearchMovie</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTimeLibrary/SearchMovie.cs" line="13" column="16" bodyfile="C:/Users/patry/Documents/Github/MovieTime/MovieTimeLibrary/SearchMovie.cs" bodystart="13" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_movie_time_library_1_1_search_movie_1aeda4e995e72a1ecb77aa1573525de85d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_movie_time_1_1_model_1_1search_movies_async" kindref="compound">searchMoviesAsync</ref></type>
+        <definition>searchMoviesAsync MovieTimeLibrary.SearchMovie.getMoviesByTitle</definition>
+        <argsstring>(string searchTitle)</argsstring>
+        <name>getMoviesByTitle</name>
+        <param>
+          <type>string</type>
+          <declname>searchTitle</declname>
+        </param>
+        <briefdescription>
+<para>Metoda wyszukiwania filmu po tytule </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>searchTitle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Tytuł</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<computeroutput>public searchMoviesAsync <ref refid="class_movie_time_library_1_1_search_movie_1aeda4e995e72a1ecb77aa1573525de85d" kindref="member">getMoviesByTitle(string searchTitle)</ref></computeroutput> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTimeLibrary/SearchMovie.cs" line="22" column="34" bodyfile="C:/Users/patry/Documents/Github/MovieTime/MovieTimeLibrary/SearchMovie.cs" bodystart="22" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_movie_time_library_1_1_search_movie_1a6cd141c5c9d9aad47e972f23f28c93b9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_movie_time_1_1_model_1_1search_movies_async" kindref="compound">searchMoviesAsync</ref></type>
+        <definition>searchMoviesAsync MovieTimeLibrary.SearchMovie.getMoviesNowPlaying</definition>
+        <argsstring>()</argsstring>
+        <name>getMoviesNowPlaying</name>
+        <briefdescription>
+<para>Metoda pobierania danych o filmach &quot;teraz granych&quot; </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Teraz grane</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTimeLibrary/SearchMovie.cs" line="43" column="34" bodyfile="C:/Users/patry/Documents/Github/MovieTime/MovieTimeLibrary/SearchMovie.cs" bodystart="43" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="class_movie_time_library_1_1_search_movie_1ac1e9b904d152e356966df39814d54ad8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_movie_time_1_1_model_1_1search_movies_async" kindref="compound">searchMoviesAsync</ref></type>
+        <definition>searchMoviesAsync MovieTimeLibrary.SearchMovie.getMoviesTopRated</definition>
+        <argsstring>()</argsstring>
+        <name>getMoviesTopRated</name>
+        <briefdescription>
+<para>Metoda pobierania danych o top filmach </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Top</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTimeLibrary/SearchMovie.cs" line="63" column="34" bodyfile="C:/Users/patry/Documents/Github/MovieTime/MovieTimeLibrary/SearchMovie.cs" bodystart="63" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="class_movie_time_library_1_1_search_movie_1a80dba63aa280f7bc22f64322e6aca3ea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_movie_time_1_1_model_1_1search_movies_async" kindref="compound">searchMoviesAsync</ref></type>
+        <definition>searchMoviesAsync MovieTimeLibrary.SearchMovie.getMoviesPopular</definition>
+        <argsstring>()</argsstring>
+        <name>getMoviesPopular</name>
+        <briefdescription>
+<para>Metoda pobierania danych o popularnych filmach </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Popularnych</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTimeLibrary/SearchMovie.cs" line="83" column="34" bodyfile="C:/Users/patry/Documents/Github/MovieTime/MovieTimeLibrary/SearchMovie.cs" bodystart="83" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="class_movie_time_library_1_1_search_movie_1a1b153ce4372267ae5480af5433ba5ebe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_movie_time_1_1_model_1_1search_movies_async" kindref="compound">searchMoviesAsync</ref></type>
+        <definition>searchMoviesAsync MovieTimeLibrary.SearchMovie.getMoviesUpcoming</definition>
+        <argsstring>()</argsstring>
+        <name>getMoviesUpcoming</name>
+        <briefdescription>
+<para>Metoda pobierania danych o nadchodzacych filmach </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Nadchodzące</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTimeLibrary/SearchMovie.cs" line="103" column="34" bodyfile="C:/Users/patry/Documents/Github/MovieTime/MovieTimeLibrary/SearchMovie.cs" bodystart="103" bodyend="117"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The Movie Database API </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Pobieranie danych dotyczących danego endpointu</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Api</label>
+        <link refid="class_movie_time_library_1_1_api"/>
+      </node>
+      <node id="1">
+        <label>MovieTimeLibrary.SearchMovie</label>
+        <link refid="class_movie_time_library_1_1_search_movie"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Api</label>
+        <link refid="class_movie_time_library_1_1_api"/>
+      </node>
+      <node id="1">
+        <label>MovieTimeLibrary.SearchMovie</label>
+        <link refid="class_movie_time_library_1_1_search_movie"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTimeLibrary/SearchMovie.cs" line="12" column="1" bodyfile="C:/Users/patry/Documents/Github/MovieTime/MovieTimeLibrary/SearchMovie.cs" bodystart="11" bodyend="118"/>
+    <listofallmembers>
+      <member refid="class_movie_time_library_1_1_api_1aefebd21dc4004c5164d59e6c07143eb9" prot="public" virt="non-virtual"><scope>MovieTimeLibrary::SearchMovie</scope><name>Api</name></member>
+      <member refid="class_movie_time_library_1_1_api_1ab6aa76f3d48577f34f0be126726ffdb5" prot="protected" virt="non-virtual"><scope>MovieTimeLibrary::SearchMovie</scope><name>GET</name></member>
+      <member refid="class_movie_time_library_1_1_api_1a50a99f1505edbc22b68671aff78dcbc5" prot="public" virt="non-virtual"><scope>MovieTimeLibrary::SearchMovie</scope><name>GetKey</name></member>
+      <member refid="class_movie_time_library_1_1_search_movie_1aeda4e995e72a1ecb77aa1573525de85d" prot="public" virt="non-virtual"><scope>MovieTimeLibrary::SearchMovie</scope><name>getMoviesByTitle</name></member>
+      <member refid="class_movie_time_library_1_1_search_movie_1a6cd141c5c9d9aad47e972f23f28c93b9" prot="public" virt="non-virtual"><scope>MovieTimeLibrary::SearchMovie</scope><name>getMoviesNowPlaying</name></member>
+      <member refid="class_movie_time_library_1_1_search_movie_1a80dba63aa280f7bc22f64322e6aca3ea" prot="public" virt="non-virtual"><scope>MovieTimeLibrary::SearchMovie</scope><name>getMoviesPopular</name></member>
+      <member refid="class_movie_time_library_1_1_search_movie_1ac1e9b904d152e356966df39814d54ad8" prot="public" virt="non-virtual"><scope>MovieTimeLibrary::SearchMovie</scope><name>getMoviesTopRated</name></member>
+      <member refid="class_movie_time_library_1_1_search_movie_1a1b153ce4372267ae5480af5433ba5ebe" prot="public" virt="non-virtual"><scope>MovieTimeLibrary::SearchMovie</scope><name>getMoviesUpcoming</name></member>
+      <member refid="class_movie_time_library_1_1_api_1a3e82bc9f5d1fee0ca6b0210754442c93" prot="protected" virt="non-virtual"><scope>MovieTimeLibrary::SearchMovie</scope><name>GetURI</name></member>
+      <member refid="class_movie_time_library_1_1_search_movie_1a361efd32bb854d29d18d0385d6222ed5" prot="public" virt="non-virtual"><scope>MovieTimeLibrary::SearchMovie</scope><name>SearchMovie</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

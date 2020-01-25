@@ -4,7 +4,7 @@
     <compoundname>MovieTime::Controller::ControllerMain</compoundname>
       <sectiondef kind="public-func">
       <memberdef kind="function" id="class_movie_time_1_1_controller_1_1_controller_main_1a00c752054baed3bb3b2cdac9aaa366db" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type><ref refid="class_movie_time_1_1_model_1_1search_movies_async" kindref="compound">searchMoviesAsync</ref></type>
+        <type>searchMoviesAsync</type>
         <definition>searchMoviesAsync MovieTime.Controller.ControllerMain.getSearchMovie</definition>
         <argsstring>(string MovieName)</argsstring>
         <name>getSearchMovie</name>
@@ -33,15 +33,87 @@
         </inbodydescription>
         <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTime/Controller/ControllerMain.cs" line="16" column="34" bodyfile="C:/Users/patry/Documents/Github/MovieTime/MovieTime/Controller/ControllerMain.cs" bodystart="16" bodyend="21"/>
       </memberdef>
+      <memberdef kind="function" id="class_movie_time_1_1_controller_1_1_controller_main_1a9a1d0a92308ab12c824d8816fae66fc4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>searchMoviesAsync</type>
+        <definition>searchMoviesAsync MovieTime.Controller.ControllerMain.getNowPlaying</definition>
+        <argsstring>()</argsstring>
+        <name>getNowPlaying</name>
+        <briefdescription>
+<para>Teraz grane </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Zwrócenie danych z zapytania</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTime/Controller/ControllerMain.cs" line="26" column="34" bodyfile="C:/Users/patry/Documents/Github/MovieTime/MovieTime/Controller/ControllerMain.cs" bodystart="26" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="class_movie_time_1_1_controller_1_1_controller_main_1ae33573a63cbce432c48909e3a5614143" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>searchMoviesAsync</type>
+        <definition>searchMoviesAsync MovieTime.Controller.ControllerMain.getTopRated</definition>
+        <argsstring>()</argsstring>
+        <name>getTopRated</name>
+        <briefdescription>
+<para>Top </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Zwrócenie danych z zapytania</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTime/Controller/ControllerMain.cs" line="36" column="34" bodyfile="C:/Users/patry/Documents/Github/MovieTime/MovieTime/Controller/ControllerMain.cs" bodystart="36" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="class_movie_time_1_1_controller_1_1_controller_main_1ab3938c81523367557d41463778fc96b1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>searchMoviesAsync</type>
+        <definition>searchMoviesAsync MovieTime.Controller.ControllerMain.getPopular</definition>
+        <argsstring>()</argsstring>
+        <name>getPopular</name>
+        <briefdescription>
+<para>Popularne </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Zwrócenie danych z zapytania</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTime/Controller/ControllerMain.cs" line="47" column="34" bodyfile="C:/Users/patry/Documents/Github/MovieTime/MovieTime/Controller/ControllerMain.cs" bodystart="47" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="class_movie_time_1_1_controller_1_1_controller_main_1a9dcce65cf087efcf2ec0b9fa352f86c1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>searchMoviesAsync</type>
+        <definition>searchMoviesAsync MovieTime.Controller.ControllerMain.getUpcoming</definition>
+        <argsstring>()</argsstring>
+        <name>getUpcoming</name>
+        <briefdescription>
+<para>Nadchodzące </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Zwrócenie danych z zapytania</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTime/Controller/ControllerMain.cs" line="58" column="34" bodyfile="C:/Users/patry/Documents/Github/MovieTime/MovieTime/Controller/ControllerMain.cs" bodystart="58" bodyend="64"/>
+      </memberdef>
       </sectiondef>
     <briefdescription>
 <para>Włączenie metody </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTime/Controller/ControllerMain.cs" line="10" column="1" bodyfile="C:/Users/patry/Documents/Github/MovieTime/MovieTime/Controller/ControllerMain.cs" bodystart="9" bodyend="22"/>
+    <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTime/Controller/ControllerMain.cs" line="10" column="1" bodyfile="C:/Users/patry/Documents/Github/MovieTime/MovieTime/Controller/ControllerMain.cs" bodystart="9" bodyend="66"/>
     <listofallmembers>
+      <member refid="class_movie_time_1_1_controller_1_1_controller_main_1a9a1d0a92308ab12c824d8816fae66fc4" prot="public" virt="non-virtual"><scope>MovieTime::Controller::ControllerMain</scope><name>getNowPlaying</name></member>
+      <member refid="class_movie_time_1_1_controller_1_1_controller_main_1ab3938c81523367557d41463778fc96b1" prot="public" virt="non-virtual"><scope>MovieTime::Controller::ControllerMain</scope><name>getPopular</name></member>
       <member refid="class_movie_time_1_1_controller_1_1_controller_main_1a00c752054baed3bb3b2cdac9aaa366db" prot="public" virt="non-virtual"><scope>MovieTime::Controller::ControllerMain</scope><name>getSearchMovie</name></member>
+      <member refid="class_movie_time_1_1_controller_1_1_controller_main_1ae33573a63cbce432c48909e3a5614143" prot="public" virt="non-virtual"><scope>MovieTime::Controller::ControllerMain</scope><name>getTopRated</name></member>
+      <member refid="class_movie_time_1_1_controller_1_1_controller_main_1a9dcce65cf087efcf2ec0b9fa352f86c1" prot="public" virt="non-virtual"><scope>MovieTime::Controller::ControllerMain</scope><name>getUpcoming</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

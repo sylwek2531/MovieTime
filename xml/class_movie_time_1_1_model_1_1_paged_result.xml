@@ -19,7 +19,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTime/Model/searchMoviesAsync.cs" line="123" column="28" bodyfile="C:/Users/patry/Documents/Github/MovieTime/MovieTime/Model/searchMoviesAsync.cs" bodystart="123" bodyend="123"/>
+        <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTimeLibrary/Model/searchMoviesAsync.cs" line="123" column="28" bodyfile="C:/Users/patry/Documents/Github/MovieTime/MovieTimeLibrary/Model/searchMoviesAsync.cs" bodystart="123" bodyend="123"/>
       </memberdef>
       <memberdef kind="property" id="class_movie_time_1_1_model_1_1_paged_result_1ac51d06dbb43ba16efb0db5ba544b542d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>int</type>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTime/Model/searchMoviesAsync.cs" line="126" column="20" bodyfile="C:/Users/patry/Documents/Github/MovieTime/MovieTime/Model/searchMoviesAsync.cs" bodystart="126" bodyend="126"/>
+        <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTimeLibrary/Model/searchMoviesAsync.cs" line="126" column="20" bodyfile="C:/Users/patry/Documents/Github/MovieTime/MovieTimeLibrary/Model/searchMoviesAsync.cs" bodystart="126" bodyend="126"/>
       </memberdef>
       <memberdef kind="property" id="class_movie_time_1_1_model_1_1_paged_result_1aa4ac27b0cc858592533025303c85fde3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>int</type>
@@ -45,7 +45,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTime/Model/searchMoviesAsync.cs" line="129" column="20" bodyfile="C:/Users/patry/Documents/Github/MovieTime/MovieTime/Model/searchMoviesAsync.cs" bodystart="129" bodyend="129"/>
+        <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTimeLibrary/Model/searchMoviesAsync.cs" line="129" column="20" bodyfile="C:/Users/patry/Documents/Github/MovieTime/MovieTimeLibrary/Model/searchMoviesAsync.cs" bodystart="129" bodyend="129"/>
       </memberdef>
       <memberdef kind="property" id="class_movie_time_1_1_model_1_1_paged_result_1a36848817544a8f785145e644555fadbe" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
         <type>int</type>
@@ -58,14 +58,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTime/Model/searchMoviesAsync.cs" line="132" column="20" bodyfile="C:/Users/patry/Documents/Github/MovieTime/MovieTime/Model/searchMoviesAsync.cs" bodystart="132" bodyend="132"/>
+        <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTimeLibrary/Model/searchMoviesAsync.cs" line="132" column="20" bodyfile="C:/Users/patry/Documents/Github/MovieTime/MovieTimeLibrary/Model/searchMoviesAsync.cs" bodystart="132" bodyend="132"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTime/Model/searchMoviesAsync.cs" line="121" column="1" bodyfile="C:/Users/patry/Documents/Github/MovieTime/MovieTime/Model/searchMoviesAsync.cs" bodystart="120" bodyend="133"/>
+    <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTimeLibrary/Model/searchMoviesAsync.cs" line="121" column="1" bodyfile="C:/Users/patry/Documents/Github/MovieTime/MovieTimeLibrary/Model/searchMoviesAsync.cs" bodystart="120" bodyend="133"/>
     <listofallmembers>
       <member refid="class_movie_time_1_1_model_1_1_paged_result_1aa4ac27b0cc858592533025303c85fde3" prot="public" virt="non-virtual"><scope>MovieTime::Model::PagedResult</scope><name>PageCount</name></member>
       <member refid="class_movie_time_1_1_model_1_1_paged_result_1ac51d06dbb43ba16efb0db5ba544b542d" prot="public" virt="non-virtual"><scope>MovieTime::Model::PagedResult</scope><name>PageIndex</name></member>

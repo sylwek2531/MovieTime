@@ -10,7 +10,7 @@
     <detaileddescription>
     </detaileddescription>
     <programlisting>
-<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>checksum<sp/>&quot;..\..\..\View\DataView.xaml&quot;<sp/>&quot;{8829d00f-11b8-4213-878b-770e8597ac16}&quot;<sp/>&quot;DD837079DCA426B6E9BFFF2689238DCB9FCD793ECB386E2B2F5AA4D3E3F42712&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>checksum<sp/>&quot;..\..\..\View\DataView.xaml&quot;<sp/>&quot;{8829d00f-11b8-4213-878b-770e8597ac16}&quot;<sp/>&quot;B3C42EABCB2CA863345EF5AF9FF7ACB5CB9EDB732BFEFD51286612553874DE75&quot;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/>&lt;auto-generated&gt;</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/><sp/><sp/>Ten<sp/>kod<sp/>został<sp/>wygenerowany<sp/>przez<sp/>narzędzie.</highlight><highlight class="normal"></highlight></codeline>

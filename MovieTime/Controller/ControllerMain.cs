@@ -19,12 +19,20 @@ namespace MovieTime.Controller
             var getMovies = search.getMoviesByTitle(MovieName);
             return getMovies;
         }
+        /// <summary>
+        /// Teraz grane
+        /// </summary>
+        /// <returns>Zwrócenie danych z zapytania</returns>
         public searchMoviesAsync getNowPlaying()
         {
             SearchMovie nowPlaying = new SearchMovie();
             var getNowPlaying = nowPlaying.getMoviesNowPlaying();
             return getNowPlaying;
         }
+        /// <summary>
+        /// Top
+        /// </summary>
+        /// <returns>Zwrócenie danych z zapytania</returns>
         public searchMoviesAsync getTopRated()
         {
             SearchMovie topRated = new SearchMovie();
@@ -32,6 +40,10 @@ namespace MovieTime.Controller
             return getTopRated;
 
         }
+        /// <summary>
+        /// Popularne
+        /// </summary>
+        /// <returns>Zwrócenie danych z zapytania</returns>
         public searchMoviesAsync getPopular()
         {
             SearchMovie popular= new SearchMovie();
@@ -39,6 +51,10 @@ namespace MovieTime.Controller
             return getPopular;
 
         }
+        /// <summary>
+        /// Nadchodzące
+        /// </summary>
+        /// <returns>Zwrócenie danych z zapytania</returns>
         public searchMoviesAsync getUpcoming()
         {
             SearchMovie upcoming = new SearchMovie();
