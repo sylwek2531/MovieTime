@@ -36,7 +36,10 @@ namespace MovieTimeLibrary
         }
 
 
-
+        /// <summary>
+        /// Pobieranie teraz granych
+        /// </summary>
+        /// <returns>Zwraca dane o teraz granych</returns>
         public searchMoviesAsync getMoviesNowPlaying()
         {
             string path = "movie/now_playing";
@@ -52,6 +55,10 @@ namespace MovieTimeLibrary
             }
 
         }
+        /// <summary>
+        /// Pobieranie Top
+        /// </summary>
+        /// <returns>Zwraca dane o top filmach</returns>
         public searchMoviesAsync getMoviesTopRated()
         {
             string path = "movie/top_rated";
@@ -67,6 +74,11 @@ namespace MovieTimeLibrary
             }
 
         }
+
+        /// <summary>
+        /// Pobieranie popularnych
+        /// </summary>
+        /// <returns>Zwraca dane o popularnych</returns>
         public searchMoviesAsync getMoviesPopular()
         {
             string path = "movie/popular";
@@ -82,6 +94,10 @@ namespace MovieTimeLibrary
             }
 
         }
+        /// <summary>
+        /// Nadchodzące
+        /// </summary>
+        /// <returns>Zwraca dane o nadchodzacych</returns>
         public searchMoviesAsync getMoviesUpcoming()
         {
             string path = "movie/upcoming";

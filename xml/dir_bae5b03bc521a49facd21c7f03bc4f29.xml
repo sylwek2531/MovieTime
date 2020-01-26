@@ -2,7 +2,6 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
   <compounddef id="dir_bae5b03bc521a49facd21c7f03bc4f29" kind="dir">
     <compoundname>C:/Users/patry/Documents/Github/MovieTime/MovieTime</compoundname>
-    <innerdir refid="dir_5aa3dea3bdeb5aa7cd163ffa5a7cec2e">C:/Users/patry/Documents/Github/MovieTime/MovieTime/API</innerdir>
     <innerdir refid="dir_39acfe4fefa770d85749b98b33e78cc7">C:/Users/patry/Documents/Github/MovieTime/MovieTime/Controller</innerdir>
     <innerdir refid="dir_994185828476c6c68dfac39e29bcb37b">C:/Users/patry/Documents/Github/MovieTime/MovieTime/Model</innerdir>
     <innerdir refid="dir_d3338c9e69ed5c983a46bee5dff48fc4">C:/Users/patry/Documents/Github/MovieTime/MovieTime/obj</innerdir>
