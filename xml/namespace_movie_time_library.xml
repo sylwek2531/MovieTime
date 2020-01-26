@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
-  <compounddef id="namespace_system" kind="namespace" language="C#">
-    <compoundname>System</compoundname>
+  <compounddef id="namespace_movie_time_library" kind="namespace" language="C#">
+    <compoundname>MovieTimeLibrary</compoundname>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTime/App.xaml.cs" line="1" column="13"/>
+    <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTime/Controller/ControllerMain.cs" line="3" column="23"/>
   </compounddef>
 </doxygen>

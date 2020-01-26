@@ -93,6 +93,11 @@ namespace MovieTime
             listbox1.UnselectAll();
 
         }
+        /// <summary>
+        /// Wychwytywanie który element ListBox jest kliknięty
+        /// </summary>
+        /// <param name="sender">Obiekt który wywołał metodę</param>
+        /// <param name="e">ustawione na elementy zdarzenia</param>
 
         private void listbox1_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
@@ -124,6 +129,7 @@ namespace MovieTime
             }
 
         }
+
         private void display_data(searchMoviesAsync data)
         {
             if (data.TotalCount > 0)

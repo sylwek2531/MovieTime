@@ -4,6 +4,7 @@
     <compoundname>App.g.cs</compoundname>
     <innerclass refid="class_movie_time_1_1_app" prot="public">MovieTime::App</innerclass>
     <innernamespace refid="namespace_movie_time">MovieTime</innernamespace>
+    <innernamespace refid="namespace_system_1_1_diagnostics">System::Diagnostics</innernamespace>
     <innernamespace refid="namespace_system_1_1_windows_1_1_automation">System::Windows::Automation</innernamespace>
     <innernamespace refid="namespace_system_1_1_windows_1_1_controls">System::Windows::Controls</innernamespace>
     <innernamespace refid="namespace_system_1_1_windows_1_1_controls_1_1_primitives">System::Windows::Controls::Primitives</innernamespace>

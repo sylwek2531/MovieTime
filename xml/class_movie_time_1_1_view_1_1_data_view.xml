@@ -54,7 +54,7 @@
         <argsstring>(searchMoviesAsync sma)</argsstring>
         <name>DataView</name>
         <param>
-          <type><ref refid="class_movie_time_1_1_model_1_1search_movies_async" kindref="compound">searchMoviesAsync</ref></type>
+          <type>searchMoviesAsync</type>
           <declname>sma</declname>
         </param>
         <briefdescription>

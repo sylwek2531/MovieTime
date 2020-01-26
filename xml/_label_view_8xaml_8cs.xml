@@ -5,6 +5,7 @@
     <innerclass refid="class_movie_time_1_1_view_1_1_label_view" prot="public">MovieTime::View::LabelView</innerclass>
     <innernamespace refid="namespace_movie_time">MovieTime</innernamespace>
     <innernamespace refid="namespace_movie_time_1_1_view">MovieTime::View</innernamespace>
+    <innernamespace refid="namespace_system_1_1_text">System::Text</innernamespace>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
