@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="_movie_time_8csproj_8_file_list_absolute_8txt" kind="file" language="C++">
+    <compoundname>MovieTime.csproj.FileListAbsolute.txt</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">C:\Users\patry\Documents\Github\MovieTime\MovieTime\bin\Debug\MovieTime.exe.config</highlight></codeline>
+<codeline lineno="2"><highlight class="normal">C:\Users\patry\Documents\Github\MovieTime\MovieTime\bin\Debug\MovieTime.exe</highlight></codeline>
+<codeline lineno="3"><highlight class="normal">C:\Users\patry\Documents\Github\MovieTime\MovieTime\bin\Debug\MovieTime.pdb</highlight></codeline>
+<codeline lineno="4"><highlight class="normal">C:\Users\patry\Documents\Github\MovieTime\MovieTime\bin\Debug\MovieTimeLibrary.dll</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">C:\Users\patry\Documents\Github\MovieTime\MovieTime\bin\Debug\Newtonsoft.Json.dll</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">C:\Users\patry\Documents\Github\MovieTime\MovieTime\bin\Debug\MovieTimeLibrary.pdb</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">C:\Users\patry\Documents\Github\MovieTime\MovieTime\bin\Debug\Newtonsoft.Json.xml</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">C:\Users\patry\Documents\Github\MovieTime\MovieTime\obj\Debug\MovieTime.csprojAssemblyReference.cache</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">C:\Users\patry\Documents\Github\MovieTime\MovieTime\obj\Debug\View\DataView.g.cs</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">C:\Users\patry\Documents\Github\MovieTime\MovieTime\obj\Debug\View\LabelView.g.cs</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">C:\Users\patry\Documents\Github\MovieTime\MovieTime\obj\Debug\View\MainWindow.g.cs</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">C:\Users\patry\Documents\Github\MovieTime\MovieTime\obj\Debug\App.g.cs</highlight></codeline>
+<codeline lineno="13"><highlight class="normal">C:\Users\patry\Documents\Github\MovieTime\MovieTime\obj\Debug\GeneratedInternalTypeHelper.g.cs</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">C:\Users\patry\Documents\Github\MovieTime\MovieTime\obj\Debug\MovieTime_MarkupCompile.cache</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">C:\Users\patry\Documents\Github\MovieTime\MovieTime\obj\Debug\MovieTime_MarkupCompile.lref</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">C:\Users\patry\Documents\Github\MovieTime\MovieTime\obj\Debug\View\DataView.baml</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">C:\Users\patry\Documents\Github\MovieTime\MovieTime\obj\Debug\View\LabelView.baml</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">C:\Users\patry\Documents\Github\MovieTime\MovieTime\obj\Debug\View\MainWindow.baml</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">C:\Users\patry\Documents\Github\MovieTime\MovieTime\obj\Debug\MovieTime.g.resources</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">C:\Users\patry\Documents\Github\MovieTime\MovieTime\obj\Debug\MovieTime.Properties.Resources.resources</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">C:\Users\patry\Documents\Github\MovieTime\MovieTime\obj\Debug\MovieTime.csproj.GenerateResource.cache</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">C:\Users\patry\Documents\Github\MovieTime\MovieTime\obj\Debug\MovieTime.csproj.CopyComplete</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">C:\Users\patry\Documents\Github\MovieTime\MovieTime\obj\Debug\MovieTime.exe</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">C:\Users\patry\Documents\Github\MovieTime\MovieTime\obj\Debug\MovieTime.pdb</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTime/obj/Debug/MovieTime.csproj.FileListAbsolute.txt"/>
+  </compounddef>
+</doxygen>

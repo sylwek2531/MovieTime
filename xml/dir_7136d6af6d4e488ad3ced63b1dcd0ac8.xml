@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="dir_7136d6af6d4e488ad3ced63b1dcd0ac8" kind="dir">
+    <compoundname>C:/Users/patry/Documents/Github/MovieTime/MovieTime/obj/Debug/View</compoundname>
+    <innerfile refid="_data_view_8g_8cs">DataView.g.cs</innerfile>
+    <innerfile refid="_data_view_8g_8i_8cs">DataView.g.i.cs</innerfile>
+    <innerfile refid="_label_view_8g_8cs">LabelView.g.cs</innerfile>
+    <innerfile refid="_label_view_8g_8i_8cs">LabelView.g.i.cs</innerfile>
+    <innerfile refid="_main_window_8g_8cs">MainWindow.g.cs</innerfile>
+    <innerfile refid="_main_window_8g_8i_8cs">MainWindow.g.i.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTime/obj/Debug/View/"/>
+  </compounddef>
+</doxygen>

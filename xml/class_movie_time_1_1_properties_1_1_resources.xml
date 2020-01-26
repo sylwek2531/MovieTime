@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_movie_time_1_1_properties_1_1_resources" kind="class" language="C#" prot="package">
+    <compoundname>MovieTime::Properties::Resources</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_movie_time_1_1_properties_1_1_resources_1a19e75f8478fdaafd003f2dd65ca85669" prot="private" static="yes" mutable="no">
+        <type>global::System.Resources.ResourceManager</type>
+        <definition>global::System.Resources.ResourceManager MovieTime.Properties.Resources.resourceMan</definition>
+        <argsstring></argsstring>
+        <name>resourceMan</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTime/Properties/Resources.Designer.cs" line="28" column="63" bodyfile="C:/Users/patry/Documents/Github/MovieTime/MovieTime/Properties/Resources.Designer.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_movie_time_1_1_properties_1_1_resources_1ab5f13908b6cc781562b5450398ba0521" prot="private" static="yes" mutable="no">
+        <type>global::System.Globalization.CultureInfo</type>
+        <definition>global::System.Globalization.CultureInfo MovieTime.Properties.Resources.resourceCulture</definition>
+        <argsstring></argsstring>
+        <name>resourceCulture</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTime/Properties/Resources.Designer.cs" line="30" column="63" bodyfile="C:/Users/patry/Documents/Github/MovieTime/MovieTime/Properties/Resources.Designer.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_movie_time_1_1_properties_1_1_resources_1ac410f9b708646d4967a039a25fa86c87" prot="package" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>global::System.Resources.ResourceManager</type>
+        <definition>global::System.Resources.ResourceManager MovieTime.Properties.Resources.ResourceManager</definition>
+        <argsstring></argsstring>
+        <name>ResourceManager</name>
+        <briefdescription>
+<para>Zwraca buforowane wystąpienie składnika ResourceManager używane przez tę klasę. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTime/Properties/Resources.Designer.cs" line="41" column="64" bodyfile="C:/Users/patry/Documents/Github/MovieTime/MovieTime/Properties/Resources.Designer.cs" bodystart="42" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="property" id="class_movie_time_1_1_properties_1_1_resources_1ab2949625c9de9cb9c69f08b2fae7bd3d" prot="package" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>global::System.Globalization.CultureInfo</type>
+        <definition>global::System.Globalization.CultureInfo MovieTime.Properties.Resources.Culture</definition>
+        <argsstring></argsstring>
+        <name>Culture</name>
+        <briefdescription>
+<para>Przesłania właściwość CurrentUICulture bieżącego wątku dla wszystkich przypadków przeszukiwania zasobów za pomocą tej silnie typizowanej klasy zasobów. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTime/Properties/Resources.Designer.cs" line="59" column="64" bodyfile="C:/Users/patry/Documents/Github/MovieTime/MovieTime/Properties/Resources.Designer.cs" bodystart="60" bodyend="69"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="class_movie_time_1_1_properties_1_1_resources_1a2d6c1407a6d79bbef2c2987cd886fb01" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MovieTime.Properties.Resources.Resources</definition>
+        <argsstring>()</argsstring>
+        <name>Resources</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTime/Properties/Resources.Designer.cs" line="33" column="18" bodyfile="C:/Users/patry/Documents/Github/MovieTime/MovieTime/Properties/Resources.Designer.cs" bodystart="33" bodyend="35"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Silnie typizowana klasa zasobów do wyszukiwania zlokalizowanych ciągów itd. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTime/Properties/Resources.Designer.cs" line="26" column="1" bodyfile="C:/Users/patry/Documents/Github/MovieTime/MovieTime/Properties/Resources.Designer.cs" bodystart="25" bodyend="70"/>
+    <listofallmembers>
+      <member refid="class_movie_time_1_1_properties_1_1_resources_1ab2949625c9de9cb9c69f08b2fae7bd3d" prot="package" virt="non-virtual"><scope>MovieTime::Properties::Resources</scope><name>Culture</name></member>
+      <member refid="class_movie_time_1_1_properties_1_1_resources_1ab5f13908b6cc781562b5450398ba0521" prot="private" virt="non-virtual"><scope>MovieTime::Properties::Resources</scope><name>resourceCulture</name></member>
+      <member refid="class_movie_time_1_1_properties_1_1_resources_1a19e75f8478fdaafd003f2dd65ca85669" prot="private" virt="non-virtual"><scope>MovieTime::Properties::Resources</scope><name>resourceMan</name></member>
+      <member refid="class_movie_time_1_1_properties_1_1_resources_1ac410f9b708646d4967a039a25fa86c87" prot="package" virt="non-virtual"><scope>MovieTime::Properties::Resources</scope><name>ResourceManager</name></member>
+      <member refid="class_movie_time_1_1_properties_1_1_resources_1a2d6c1407a6d79bbef2c2987cd886fb01" prot="package" virt="non-virtual"><scope>MovieTime::Properties::Resources</scope><name>Resources</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

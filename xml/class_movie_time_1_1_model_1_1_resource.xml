@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_movie_time_1_1_model_1_1_resource" kind="class" language="C#" prot="public">
+    <compoundname>MovieTime::Model::Resource</compoundname>
+    <derivedcompoundref refid="class_movie_time_1_1_model_1_1_movie" prot="public" virt="non-virtual">MovieTime.Model.Movie</derivedcompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_movie_time_1_1_model_1_1_resource_1a153b768a2ecde4752d3938b0cf6c5e0d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int MovieTime.Model.Resource.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTime/Model/searchMoviesAsync.cs" line="22" column="20" bodyfile="C:/Users/patry/Documents/Github/MovieTime/MovieTime/Model/searchMoviesAsync.cs" bodystart="22" bodyend="22"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MovieTime.Model.Movie</label>
+        <link refid="class_movie_time_1_1_model_1_1_movie"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MovieTime.Model.Resource</label>
+        <link refid="class_movie_time_1_1_model_1_1_resource"/>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTime/Model/searchMoviesAsync.cs" line="20" column="1" bodyfile="C:/Users/patry/Documents/Github/MovieTime/MovieTime/Model/searchMoviesAsync.cs" bodystart="19" bodyend="23"/>
+    <listofallmembers>
+      <member refid="class_movie_time_1_1_model_1_1_resource_1a153b768a2ecde4752d3938b0cf6c5e0d" prot="public" virt="non-virtual"><scope>MovieTime::Model::Resource</scope><name>Id</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

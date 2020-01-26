@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_movie_time_1_1_view_1_1_image_path" kind="class" language="C#" prot="public">
+    <compoundname>MovieTime::View::ImagePath</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IValueConverter</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_movie_time_1_1_view_1_1_image_path_1aa4d9dd8c632f1f90733bc9454e0cfdeb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>object</type>
+        <definition>object MovieTime.View.ImagePath.Convert</definition>
+        <argsstring>(object value, Type targetType, object parameter, CultureInfo culture)</argsstring>
+        <name>Convert</name>
+        <param>
+          <type>object</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>Type</type>
+          <declname>targetType</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>parameter</declname>
+        </param>
+        <param>
+          <type>CultureInfo</type>
+          <declname>culture</declname>
+        </param>
+        <briefdescription>
+<para>Wyświetlanie zdjecia </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Zależnie od tego co dostaniemy w odpowiedzi na nasze żadanie wyświetla nam zdjęcie ktore jest w opisie filmu, lub jeśli nie ma zdjęcia wstawiamy nasze zdjecie none.png zeby nie wysypało opisu</para>
+<para><simplesect kind="return"><para>Image</para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTime/View/DataView.xaml.cs" line="31" column="23" bodyfile="C:/Users/patry/Documents/Github/MovieTime/MovieTime/View/DataView.xaml.cs" bodystart="31" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="class_movie_time_1_1_view_1_1_image_path_1aaf05aa9766208f7acb701eb22ac60a95" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>object</type>
+        <definition>object MovieTime.View.ImagePath.ConvertBack</definition>
+        <argsstring>(object value, Type targetType, object parameter, CultureInfo culture)</argsstring>
+        <name>ConvertBack</name>
+        <param>
+          <type>object</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>Type</type>
+          <declname>targetType</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>parameter</declname>
+        </param>
+        <param>
+          <type>CultureInfo</type>
+          <declname>culture</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTime/View/DataView.xaml.cs" line="51" column="23" bodyfile="C:/Users/patry/Documents/Github/MovieTime/MovieTime/View/DataView.xaml.cs" bodystart="51" bodyend="54"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>IValueConverter</label>
+      </node>
+      <node id="1">
+        <label>MovieTime.View.ImagePath</label>
+        <link refid="class_movie_time_1_1_view_1_1_image_path"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>IValueConverter</label>
+      </node>
+      <node id="1">
+        <label>MovieTime.View.ImagePath</label>
+        <link refid="class_movie_time_1_1_view_1_1_image_path"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTime/View/DataView.xaml.cs" line="25" column="1" bodyfile="C:/Users/patry/Documents/Github/MovieTime/MovieTime/View/DataView.xaml.cs" bodystart="24" bodyend="55"/>
+    <listofallmembers>
+      <member refid="class_movie_time_1_1_view_1_1_image_path_1aa4d9dd8c632f1f90733bc9454e0cfdeb" prot="public" virt="non-virtual"><scope>MovieTime::View::ImagePath</scope><name>Convert</name></member>
+      <member refid="class_movie_time_1_1_view_1_1_image_path_1aaf05aa9766208f7acb701eb22ac60a95" prot="public" virt="non-virtual"><scope>MovieTime::View::ImagePath</scope><name>ConvertBack</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

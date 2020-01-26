@@ -1,0 +1,218 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.17">
+  <compound refid="class_movie_time_1_1_app" kind="class"><name>MovieTime::App</name>
+    <member refid="class_movie_time_1_1_app_1a9501aaded02ebf6506eb962416695de4" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_movie_time_1_1_app_1a9501aaded02ebf6506eb962416695de4" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_movie_time_1_1_app_1a9991b7c8a7af4e2ef5342765067660aa" kind="function"><name>Main</name></member>
+    <member refid="class_movie_time_1_1_app_1a9991b7c8a7af4e2ef5342765067660aa" kind="function"><name>Main</name></member>
+  </compound>
+  <compound refid="class_movie_time_1_1_controller_1_1_controller_main" kind="class"><name>MovieTime::Controller::ControllerMain</name>
+    <member refid="class_movie_time_1_1_controller_1_1_controller_main_1a00c752054baed3bb3b2cdac9aaa366db" kind="function"><name>getSearchMovie</name></member>
+    <member refid="class_movie_time_1_1_controller_1_1_controller_main_1a9a1d0a92308ab12c824d8816fae66fc4" kind="function"><name>getNowPlaying</name></member>
+    <member refid="class_movie_time_1_1_controller_1_1_controller_main_1ae33573a63cbce432c48909e3a5614143" kind="function"><name>getTopRated</name></member>
+    <member refid="class_movie_time_1_1_controller_1_1_controller_main_1ab3938c81523367557d41463778fc96b1" kind="function"><name>getPopular</name></member>
+    <member refid="class_movie_time_1_1_controller_1_1_controller_main_1a9dcce65cf087efcf2ec0b9fa352f86c1" kind="function"><name>getUpcoming</name></member>
+  </compound>
+  <compound refid="class_movie_time_1_1_view_1_1_data_view" kind="class"><name>MovieTime::View::DataView</name>
+    <member refid="class_movie_time_1_1_view_1_1_data_view_1a064f0f2796b4e1caae9e43a096d008d6" kind="variable"><name>_contentLoaded</name></member>
+    <member refid="class_movie_time_1_1_view_1_1_data_view_1aba0fcbb34eeecaaefb8c698c8a7e5d4c" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_movie_time_1_1_view_1_1_data_view_1aba0fcbb34eeecaaefb8c698c8a7e5d4c" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_movie_time_1_1_view_1_1_data_view_1a4d14653f5967fa056b7c216d92a92781" kind="function"><name>DataView</name></member>
+    <member refid="class_movie_time_1_1_view_1_1_data_view_1a40a32e873754596fc9c2e5bb42479c1b" kind="function"><name>Connect</name></member>
+    <member refid="class_movie_time_1_1_view_1_1_data_view_1a40a32e873754596fc9c2e5bb42479c1b" kind="function"><name>Connect</name></member>
+  </compound>
+  <compound refid="class_xaml_generated_namespace_1_1_generated_internal_type_helper" kind="class"><name>XamlGeneratedNamespace::GeneratedInternalTypeHelper</name>
+    <member refid="class_xaml_generated_namespace_1_1_generated_internal_type_helper_1aefb7a98fceb9c287cef4756942f441d1" kind="function"><name>CreateInstance</name></member>
+    <member refid="class_xaml_generated_namespace_1_1_generated_internal_type_helper_1afdc9fe15b56607d02082908d934480c6" kind="function"><name>GetPropertyValue</name></member>
+    <member refid="class_xaml_generated_namespace_1_1_generated_internal_type_helper_1ade0f04c0f7b18dd5b170e071d5534d38" kind="function"><name>SetPropertyValue</name></member>
+    <member refid="class_xaml_generated_namespace_1_1_generated_internal_type_helper_1a8ec4c37e82d9f4e867e9655f4eac3a78" kind="function"><name>CreateDelegate</name></member>
+    <member refid="class_xaml_generated_namespace_1_1_generated_internal_type_helper_1a73471f4a6d1ca4c4fceec9ad8610f0c8" kind="function"><name>AddEventHandler</name></member>
+  </compound>
+  <compound refid="class_movie_time_1_1_view_1_1_image_path" kind="class"><name>MovieTime::View::ImagePath</name>
+    <member refid="class_movie_time_1_1_view_1_1_image_path_1aa4d9dd8c632f1f90733bc9454e0cfdeb" kind="function"><name>Convert</name></member>
+    <member refid="class_movie_time_1_1_view_1_1_image_path_1aaf05aa9766208f7acb701eb22ac60a95" kind="function"><name>ConvertBack</name></member>
+  </compound>
+  <compound refid="class_movie_time_1_1_view_1_1_label_view" kind="class"><name>MovieTime::View::LabelView</name>
+    <member refid="class_movie_time_1_1_view_1_1_label_view_1a1d3cebe19da70b44a6c6f35ef139358a" kind="variable"><name>label</name></member>
+    <member refid="class_movie_time_1_1_view_1_1_label_view_1a1955dde1199bba7ea59100b0ca8d00c1" kind="variable"><name>_contentLoaded</name></member>
+    <member refid="class_movie_time_1_1_view_1_1_label_view_1ac5875d7cf906ef4d4391aa23f79e0451" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_movie_time_1_1_view_1_1_label_view_1ac5875d7cf906ef4d4391aa23f79e0451" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_movie_time_1_1_view_1_1_label_view_1a7f46f22adef98082de30734e920cd15f" kind="function"><name>LabelView</name></member>
+    <member refid="class_movie_time_1_1_view_1_1_label_view_1aae55f03c073b34c07ef93e5c9ec7accd" kind="function"><name>Connect</name></member>
+    <member refid="class_movie_time_1_1_view_1_1_label_view_1aae55f03c073b34c07ef93e5c9ec7accd" kind="function"><name>Connect</name></member>
+  </compound>
+  <compound refid="class_movie_time_1_1_main_window_1_1_list_item" kind="class"><name>MovieTime::MainWindow::ListItem</name>
+    <member refid="class_movie_time_1_1_main_window_1_1_list_item_1a6ad0c188cd7aa40e1e4f2a2afca55df8" kind="property"><name>ID</name></member>
+    <member refid="class_movie_time_1_1_main_window_1_1_list_item_1aefdb11bd1b0729abeb023cd6e1362c84" kind="property"><name>Name</name></member>
+    <member refid="class_movie_time_1_1_main_window_1_1_list_item_1afc6b3cdbddd1ae92a8e0e8c8fcf35958" kind="property"><name>ImagePath</name></member>
+  </compound>
+  <compound refid="class_movie_time_1_1_main_window" kind="class"><name>MovieTime::MainWindow</name>
+    <member refid="class_movie_time_1_1_main_window_1ae6d24a13d691297c9a9870b1d3bbcb3f" kind="variable"><name>listbox1</name></member>
+    <member refid="class_movie_time_1_1_main_window_1a87f53c068ded5daa0c42dc8a18d79941" kind="variable"><name>SearchBox</name></member>
+    <member refid="class_movie_time_1_1_main_window_1a9ccff804b72ebce00738caae59fc7071" kind="variable"><name>iIcon3</name></member>
+    <member refid="class_movie_time_1_1_main_window_1a8782dfc85818bee540f2fe38265797f8" kind="variable"><name>Grid</name></member>
+    <member refid="class_movie_time_1_1_main_window_1ae9b68584d27872525cdf700a2b66f049" kind="variable"><name>_contentLoaded</name></member>
+    <member refid="class_movie_time_1_1_main_window_1af7857a3ca9b47db2123a8201ccab5a07" kind="variable"><name>controller</name></member>
+    <member refid="class_movie_time_1_1_main_window_1a93dc590ea6f4f2725e15d02fdf11931f" kind="variable"><name>viewModel</name></member>
+    <member refid="class_movie_time_1_1_main_window_1a87ce2328cc2ef8586943528e3cc07850" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_movie_time_1_1_main_window_1a87ce2328cc2ef8586943528e3cc07850" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_movie_time_1_1_main_window_1a05346605c8b78ee366052af58ddc9daf" kind="function"><name>MainWindow</name></member>
+    <member refid="class_movie_time_1_1_main_window_1a0523e97a5ae32cea92aa5f6918826d23" kind="function"><name>Connect</name></member>
+    <member refid="class_movie_time_1_1_main_window_1a0523e97a5ae32cea92aa5f6918826d23" kind="function"><name>Connect</name></member>
+    <member refid="class_movie_time_1_1_main_window_1ad5c1583c3070788b1343c0382096d9d2" kind="function"><name>Search_Click</name></member>
+    <member refid="class_movie_time_1_1_main_window_1a811e3e32cfb21c095c25f517aa425d56" kind="function"><name>listbox1_SelectionChanged</name></member>
+    <member refid="class_movie_time_1_1_main_window_1afd671ac0648a93a3080a8721453f5e3c" kind="function"><name>display_data</name></member>
+  </compound>
+  <compound refid="class_movie_time_1_1_properties_1_1_resources" kind="class"><name>MovieTime::Properties::Resources</name>
+    <member refid="class_movie_time_1_1_properties_1_1_resources_1a19e75f8478fdaafd003f2dd65ca85669" kind="variable"><name>resourceMan</name></member>
+    <member refid="class_movie_time_1_1_properties_1_1_resources_1ab5f13908b6cc781562b5450398ba0521" kind="variable"><name>resourceCulture</name></member>
+    <member refid="class_movie_time_1_1_properties_1_1_resources_1ac410f9b708646d4967a039a25fa86c87" kind="property"><name>ResourceManager</name></member>
+    <member refid="class_movie_time_1_1_properties_1_1_resources_1ab2949625c9de9cb9c69f08b2fae7bd3d" kind="property"><name>Culture</name></member>
+    <member refid="class_movie_time_1_1_properties_1_1_resources_1a2d6c1407a6d79bbef2c2987cd886fb01" kind="function"><name>Resources</name></member>
+  </compound>
+  <compound refid="class_movie_time_1_1_model_1_1search_page" kind="class"><name>MovieTime::Model::searchPage</name>
+    <member refid="class_movie_time_1_1_model_1_1search_page_1a74185cd27cbfa8d5de0f435aa7863e76" kind="property"><name>MovieName</name></member>
+  </compound>
+  <compound refid="class_movie_time_1_1_properties_1_1_settings" kind="class"><name>MovieTime::Properties::Settings</name>
+    <member refid="class_movie_time_1_1_properties_1_1_settings_1a34daead495bcd8c591842b062ede77fb" kind="variable"><name>defaultInstance</name></member>
+    <member refid="class_movie_time_1_1_properties_1_1_settings_1af8eda037f8921d57d4a200211caa2fa5" kind="property"><name>Default</name></member>
+  </compound>
+  <compound refid="namespace_movie_time" kind="namespace"><name>MovieTime</name>
+  </compound>
+  <compound refid="namespace_movie_time_1_1_controller" kind="namespace"><name>MovieTime::Controller</name>
+  </compound>
+  <compound refid="namespace_movie_time_1_1_model" kind="namespace"><name>MovieTime::Model</name>
+  </compound>
+  <compound refid="namespace_movie_time_1_1_properties" kind="namespace"><name>MovieTime::Properties</name>
+  </compound>
+  <compound refid="namespace_movie_time_1_1_view" kind="namespace"><name>MovieTime::View</name>
+  </compound>
+  <compound refid="namespace_movie_time_library" kind="namespace"><name>MovieTimeLibrary</name>
+  </compound>
+  <compound refid="namespace_system" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections_1_1_generic" kind="namespace"><name>System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespace_system_1_1_configuration" kind="namespace"><name>System::Configuration</name>
+  </compound>
+  <compound refid="namespace_system_1_1_data" kind="namespace"><name>System::Data</name>
+  </compound>
+  <compound refid="namespace_system_1_1_diagnostics" kind="namespace"><name>System::Diagnostics</name>
+  </compound>
+  <compound refid="namespace_system_1_1_globalization" kind="namespace"><name>System::Globalization</name>
+  </compound>
+  <compound refid="namespace_system_1_1_linq" kind="namespace"><name>System::Linq</name>
+  </compound>
+  <compound refid="namespace_system_1_1_reflection" kind="namespace"><name>System::Reflection</name>
+  </compound>
+  <compound refid="namespace_system_1_1_resources" kind="namespace"><name>System::Resources</name>
+  </compound>
+  <compound refid="namespace_system_1_1_runtime_1_1_compiler_services" kind="namespace"><name>System::Runtime::CompilerServices</name>
+  </compound>
+  <compound refid="namespace_system_1_1_runtime_1_1_interop_services" kind="namespace"><name>System::Runtime::InteropServices</name>
+  </compound>
+  <compound refid="namespace_system_1_1_text" kind="namespace"><name>System::Text</name>
+  </compound>
+  <compound refid="namespace_system_1_1_threading_1_1_tasks" kind="namespace"><name>System::Threading::Tasks</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows" kind="namespace"><name>System::Windows</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_automation" kind="namespace"><name>System::Windows::Automation</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_controls" kind="namespace"><name>System::Windows::Controls</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_controls_1_1_primitives" kind="namespace"><name>System::Windows::Controls::Primitives</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_data" kind="namespace"><name>System::Windows::Data</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_documents" kind="namespace"><name>System::Windows::Documents</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_ink" kind="namespace"><name>System::Windows::Ink</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_input" kind="namespace"><name>System::Windows::Input</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_markup" kind="namespace"><name>System::Windows::Markup</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_media" kind="namespace"><name>System::Windows::Media</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_media_1_1_animation" kind="namespace"><name>System::Windows::Media::Animation</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_media_1_1_effects" kind="namespace"><name>System::Windows::Media::Effects</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_media_1_1_imaging" kind="namespace"><name>System::Windows::Media::Imaging</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_media_1_1_media3_d" kind="namespace"><name>System::Windows::Media::Media3D</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_media_1_1_text_formatting" kind="namespace"><name>System::Windows::Media::TextFormatting</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_navigation" kind="namespace"><name>System::Windows::Navigation</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_shapes" kind="namespace"><name>System::Windows::Shapes</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_shell" kind="namespace"><name>System::Windows::Shell</name>
+  </compound>
+  <compound refid="namespace_xaml_generated_namespace" kind="namespace"><name>XamlGeneratedNamespace</name>
+  </compound>
+  <compound refid="_app_8xaml_8cs" kind="file"><name>App.xaml.cs</name>
+  </compound>
+  <compound refid="_controller_main_8cs" kind="file"><name>ControllerMain.cs</name>
+  </compound>
+  <compound refid="search_page_8cs" kind="file"><name>searchPage.cs</name>
+  </compound>
+  <compound refid="_app_8g_8cs" kind="file"><name>App.g.cs</name>
+  </compound>
+  <compound refid="_app_8g_8i_8cs" kind="file"><name>App.g.i.cs</name>
+  </compound>
+  <compound refid="_generated_internal_type_helper_8g_8cs" kind="file"><name>GeneratedInternalTypeHelper.g.cs</name>
+  </compound>
+  <compound refid="_generated_internal_type_helper_8g_8i_8cs" kind="file"><name>GeneratedInternalTypeHelper.g.i.cs</name>
+  </compound>
+  <compound refid="_movie_time_8csproj_8_file_list_absolute_8txt" kind="file"><name>MovieTime.csproj.FileListAbsolute.txt</name>
+  </compound>
+  <compound refid="_data_view_8g_8cs" kind="file"><name>DataView.g.cs</name>
+  </compound>
+  <compound refid="_data_view_8g_8i_8cs" kind="file"><name>DataView.g.i.cs</name>
+  </compound>
+  <compound refid="_label_view_8g_8cs" kind="file"><name>LabelView.g.cs</name>
+  </compound>
+  <compound refid="_label_view_8g_8i_8cs" kind="file"><name>LabelView.g.i.cs</name>
+  </compound>
+  <compound refid="_main_window_8g_8cs" kind="file"><name>MainWindow.g.cs</name>
+  </compound>
+  <compound refid="_main_window_8g_8i_8cs" kind="file"><name>MainWindow.g.i.cs</name>
+  </compound>
+  <compound refid="_assembly_info_8cs" kind="file"><name>AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_resources_8_designer_8cs" kind="file"><name>Resources.Designer.cs</name>
+  </compound>
+  <compound refid="_settings_8_designer_8cs" kind="file"><name>Settings.Designer.cs</name>
+  </compound>
+  <compound refid="_data_view_8xaml_8cs" kind="file"><name>DataView.xaml.cs</name>
+  </compound>
+  <compound refid="_label_view_8xaml_8cs" kind="file"><name>LabelView.xaml.cs</name>
+  </compound>
+  <compound refid="_main_window_8xaml_8cs" kind="file"><name>MainWindow.xaml.cs</name>
+  </compound>
+  <compound refid="dir_39acfe4fefa770d85749b98b33e78cc7" kind="dir"><name>C:/Users/patry/Documents/Github/MovieTime/MovieTime/Controller</name>
+  </compound>
+  <compound refid="dir_8bbe432edaaa8c217a091acff56336c1" kind="dir"><name>C:/Users/patry/Documents/Github/MovieTime/MovieTime/obj/Debug</name>
+  </compound>
+  <compound refid="dir_f396504afdc959660871b003fa10164d" kind="dir"><name>C:/Users/patry/Documents</name>
+  </compound>
+  <compound refid="dir_398c19dea7314c491cb5c1b99ef38093" kind="dir"><name>C:/Users/patry/Documents/Github</name>
+  </compound>
+  <compound refid="dir_994185828476c6c68dfac39e29bcb37b" kind="dir"><name>C:/Users/patry/Documents/Github/MovieTime/MovieTime/Model</name>
+  </compound>
+  <compound refid="dir_bae5b03bc521a49facd21c7f03bc4f29" kind="dir"><name>C:/Users/patry/Documents/Github/MovieTime/MovieTime</name>
+  </compound>
+  <compound refid="dir_5adfe3d95b1a7be230f306cbd35a5739" kind="dir"><name>C:/Users/patry/Documents/Github/MovieTime</name>
+  </compound>
+  <compound refid="dir_d3338c9e69ed5c983a46bee5dff48fc4" kind="dir"><name>C:/Users/patry/Documents/Github/MovieTime/MovieTime/obj</name>
+  </compound>
+  <compound refid="dir_eb2aaee1e6ffc41d4c331d0e0c39d4a4" kind="dir"><name>C:/Users/patry/Documents/Github/MovieTime/MovieTime/Properties</name>
+  </compound>
+  <compound refid="dir_acd1e314a66b34ef3e85d9b63b5614cc" kind="dir"><name>C:/Users/patry/Documents/Github/MovieTime/MovieTime/View</name>
+  </compound>
+  <compound refid="dir_7136d6af6d4e488ad3ced63b1dcd0ac8" kind="dir"><name>C:/Users/patry/Documents/Github/MovieTime/MovieTime/obj/Debug/View</name>
+  </compound>
+</doxygenindex>

@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="_controller_main_8cs" kind="file" language="C#">
+    <compoundname>ControllerMain.cs</compoundname>
+    <innerclass refid="class_movie_time_1_1_controller_1_1_controller_main" prot="public">MovieTime::Controller::ControllerMain</innerclass>
+    <innernamespace refid="namespace_movie_time">MovieTime</innernamespace>
+    <innernamespace refid="namespace_movie_time_1_1_controller">MovieTime::Controller</innernamespace>
+    <innernamespace refid="namespace_movie_time_library">MovieTimeLibrary</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_movie_time" kindref="compound">MovieTime</ref>.<ref refid="namespace_movie_time_1_1_model" kindref="compound">Model</ref>;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>MovieTimeLibrary;</highlight></codeline>
+<codeline lineno="4" refid="namespace_movie_time_1_1_controller" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_movie_time_1_1_controller" kindref="compound">MovieTime.Controller</ref></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="9" refid="class_movie_time_1_1_controller_1_1_controller_main" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_movie_time_1_1_controller_1_1_controller_main" kindref="compound">ControllerMain</ref></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>searchMoviesAsync<sp/><ref refid="class_movie_time_1_1_controller_1_1_controller_main_1a00c752054baed3bb3b2cdac9aaa366db" kindref="member">getSearchMovie</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>MovieName)</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SearchMovie<sp/>search<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>SearchMovie();</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>getMovies<sp/>=<sp/>search.getMoviesByTitle(MovieName);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>getMovies;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>searchMoviesAsync<sp/><ref refid="class_movie_time_1_1_controller_1_1_controller_main_1a9a1d0a92308ab12c824d8816fae66fc4" kindref="member">getNowPlaying</ref>()</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SearchMovie<sp/>nowPlaying<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>SearchMovie();</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/><ref refid="class_movie_time_1_1_controller_1_1_controller_main_1a9a1d0a92308ab12c824d8816fae66fc4" kindref="member">getNowPlaying</ref><sp/>=<sp/>nowPlaying.getMoviesNowPlaying();</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_movie_time_1_1_controller_1_1_controller_main_1a9a1d0a92308ab12c824d8816fae66fc4" kindref="member">getNowPlaying</ref>;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>searchMoviesAsync<sp/><ref refid="class_movie_time_1_1_controller_1_1_controller_main_1ae33573a63cbce432c48909e3a5614143" kindref="member">getTopRated</ref>()</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SearchMovie<sp/>topRated<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>SearchMovie();</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/><ref refid="class_movie_time_1_1_controller_1_1_controller_main_1ae33573a63cbce432c48909e3a5614143" kindref="member">getTopRated</ref><sp/>=<sp/>topRated.getMoviesTopRated();</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_movie_time_1_1_controller_1_1_controller_main_1ae33573a63cbce432c48909e3a5614143" kindref="member">getTopRated</ref>;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>searchMoviesAsync<sp/><ref refid="class_movie_time_1_1_controller_1_1_controller_main_1ab3938c81523367557d41463778fc96b1" kindref="member">getPopular</ref>()</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SearchMovie<sp/>popular=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>SearchMovie();</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/><ref refid="class_movie_time_1_1_controller_1_1_controller_main_1ab3938c81523367557d41463778fc96b1" kindref="member">getPopular</ref><sp/>=<sp/>popular.getMoviesPopular();</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="class_movie_time_1_1_controller_1_1_controller_main_1ab3938c81523367557d41463778fc96b1" kindref="member">getPopular</ref>;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>searchMoviesAsync<sp/><ref refid="class_movie_time_1_1_controller_1_1_controller_main_1a9dcce65cf087efcf2ec0b9fa352f86c1" kindref="member">getUpcoming</ref>()</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SearchMovie<sp/>upcoming<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>SearchMovie();</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>getTvShow<sp/>=<sp/>upcoming.getMoviesUpcoming();</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>getTvShow;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="67"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/patry/Documents/Github/MovieTime/MovieTime/Controller/ControllerMain.cs"/>
+  </compounddef>
+</doxygen>

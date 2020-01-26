@@ -1,0 +1,77 @@
+﻿<UserControl x:Class="MovieTime.View.DataView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:MovieTime.View"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <UserControl.Resources>
+        <local:ImagePath x:Key="ImagePath"/>
+    </UserControl.Resources>
+    <Grid Margin="5,5,5,0" Background="#141414" >
+        
+
+                <ItemsControl ItemsSource="{Binding Path=Results}" Background="#141414">
+                    <ItemsControl.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <WrapPanel />
+                        </ItemsPanelTemplate>
+                    </ItemsControl.ItemsPanel>
+                    <ItemsControl.ItemTemplate>
+                        
+                        <DataTemplate>
+                            
+                            
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="*"/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+
+                                <StackPanel>
+                                     <Label>
+                                        <StackPanel >
+                                            <StackPanel>
+                                                <TextBlock Text="Date:" Foreground="#FFC200" FontSize="15"/>
+                                                <TextBlock VerticalAlignment="Bottom" Text="{Binding ReleaseDate, StringFormat=dd-MM-yyyy}" Foreground="White" TextWrapping="WrapWithOverflow"/>
+                                            </StackPanel>   
+                                            <StackPanel >
+                                                <TextBlock Text="Title:" Foreground="#FFC200" FontSize="15"/>
+                                                <TextBlock VerticalAlignment="Bottom" Text="{Binding Title}" Foreground="White" TextWrapping="WrapWithOverflow"/>
+                                            </StackPanel>
+                                        </StackPanel>
+                                    </Label>
+                                    
+                                    <Grid Background="#141414" ShowGridLines="False" Margin="5">
+                                        <Image Source="{Binding Converter={StaticResource ImagePath}, Path=Backdrop}" Stretch="UniformToFill"/>
+                                        <StackPanel Orientation="Horizontal" Margin="5">
+
+                                        </StackPanel>
+                                    </Grid>
+
+                                    <StackPanel Margin="5,0,5,5">
+                                        <TextBlock Text="Overview:" Foreground="#FFC200" FontSize="15"/>
+                                        <TextBlock VerticalAlignment="Bottom" Text="{Binding Overview}" Foreground="White" TextWrapping="WrapWithOverflow"/>
+                                    </StackPanel>
+
+                                </StackPanel>   
+                        
+
+
+                            </Grid>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+           
+
+    </Grid>
+</UserControl>
